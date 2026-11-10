@@ -1,0 +1,101 @@
+{
+  "curso": "3ESO",
+  "unidad": "UD11",
+  "titulo": "Movimientos en el plano",
+  "applets": [
+    {
+      "actividad": 47,
+      "titulo": "Un rosetón con giros",
+      "enunciado": "Ya tienes dibujado un pétalo <code>pol1</code> con un vértice en el origen (puedes mover los otros vértices). Escribe en la barra de entrada <code>Secuencia(Rota(pol1, k*45°, (0,0)), k, 1, 7)</code>.",
+      "tareas": [
+        "¿Cuántos pétalos tiene el rosetón? ¿Qué movimiento se ha aplicado?",
+        "¿Qué hay que cambiar para obtener un rosetón de 6 pétalos?"
+      ],
+      "vista": [-6, 6, -5, 5],
+      "inicio": [
+        "O=(0,0)",
+        "B=(1.2,1.8)",
+        "C=(0,4)",
+        "D=(-1.2,1.8)",
+        "pol1=Polígono(O,B,C,D)"
+      ],
+      "fijos": ["O"],
+      "solucion": [
+        "Secuencia(Rota(pol1, k*45°, (0,0)), k, 1, 7)"
+      ]
+    },
+    {
+      "actividad": 59,
+      "titulo": "Traslación, giro y simetría de un punto",
+      "enunciado": "Tienes el punto <code>A=(3,2)</code>. Antes de escribir cada orden, predice qué punto saldrá y después compruébalo.",
+      "tareas": [
+        "<code>Traslada(A, Vector((1,4)))</code>",
+        "<code>Rota(A, 90°, (0,0))</code>",
+        "<code>Refleja(A, EjeY)</code>"
+      ],
+      "vista": [-6, 7, -4, 7],
+      "inicio": [
+        "A=(3,2)"
+      ],
+      "solucion": [
+        "Traslada(A, Vector((1,4)))",
+        "Rota(A, 90°, (0,0))",
+        "Refleja(A, EjeY)"
+      ]
+    },
+    {
+      "actividad": 69,
+      "titulo": "Composición de movimientos",
+      "enunciado": "Traslada el triángulo <code>t1</code> con el vector <code>u</code> y la figura obtenida con el vector <code>v</code>. Después traslada el triángulo inicial con <code>u+v</code>. ¿Qué observas? Repite con dos simetrías de ejes perpendiculares que se corten en el origen.",
+      "tareas": [],
+      "vista": [-7, 10, -6, 7],
+      "inicio": [
+        "P=(1,1)",
+        "Q=(3,1)",
+        "R=(1.5,2.5)",
+        "t1=Polígono(P,Q,R)",
+        "u=Vector((4,0))",
+        "v=Vector((0,3))"
+      ],
+      "solucion": [
+        "t2=Traslada(t1, u)",
+        "t3=Traslada(t2, v)",
+        "t4=Traslada(t1, u+v)",
+        "s1=Refleja(t1, EjeX)",
+        "s2=Refleja(s1, EjeY)",
+        "g=Rota(t1, 180°, (0,0))"
+      ]
+    },
+    {
+      "actividad": 93,
+      "titulo": "Un friso con traslaciones",
+      "enunciado": "Tienes el cuadrado <code>pol1</code> de vértices (0, 0), (2, 0), (2, 2) y (0, 2). Escribe <code>Secuencia(Traslada(pol1, Vector((2k, 0))), k, 1, 5)</code>.",
+      "tareas": [
+        "¿Qué figura obtienes? ¿Cuántos cuadrados tiene?",
+        "¿Qué orden añadiría una segunda fila encima?"
+      ],
+      "vista": [-1, 13, -2, 6],
+      "inicio": [
+        "pol1=Polígono((0,0),(2,0),(2,2),(0,2))"
+      ],
+      "solucion": [
+        "Secuencia(Traslada(pol1, Vector((2k, 0))), k, 1, 5)",
+        "Secuencia(Traslada(pol1, Vector((2k, 2))), k, 0, 5)"
+      ]
+    },
+    {
+      "actividad": 95,
+      "titulo": "Diseña tu propio friso",
+      "enunciado": "Diseña un motivo sencillo y genera con él un friso usando al menos dos movimientos distintos. Explica qué movimientos has usado. La solución muestra un ejemplo con una simetría y una traslación.",
+      "tareas": [],
+      "vista": [-1, 13, -3, 5],
+      "inicio": [],
+      "solucion": [
+        "m=Polígono((0,0),(1,0),(1,2))",
+        "m2=Refleja(m, x=1)",
+        "Secuencia(Traslada(m, Vector((2k, 0))), k, 1, 5)",
+        "Secuencia(Traslada(m2, Vector((2k, 0))), k, 1, 5)"
+      ]
+    }
+  ]
+}
