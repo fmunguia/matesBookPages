@@ -1,0 +1,29 @@
+{
+  "curso": "2ESO",
+  "unidad": "UD12",
+  "titulo": "Estadística",
+  "applets": [
+    {
+      "actividad": 73,
+      "titulo": "Parámetros con comandos",
+      "enunciado": "Tienes la lista <code>datos={3,7,7,2,9,5,7,4}</code>. Escribe <code>Media(datos)</code>, <code>Mediana(datos)</code> y <code>Moda(datos)</code>.",
+      "tareas": [
+        "Escribe los resultados y compruébalos a mano.",
+        "Añade a la lista un 30. ¿Qué parámetro cambia más?"
+      ],
+      "inicio": [
+        "datos={3,7,7,2,9,5,7,4}"
+      ],
+      "solucion": [
+        "Media(datos)",
+        "Mediana(datos)",
+        "Moda(datos)",
+        "datos2={3,7,7,2,9,5,7,4,30}",
+        "Media(datos2)",
+        "Mediana(datos2)",
+        "Moda(datos2)"
+      ],
+      "perspectiva": "A"
+    }
+  ]
+}

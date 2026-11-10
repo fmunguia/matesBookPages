@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unidad 11. Cuerpos geométricos</title>
+<link rel="stylesheet" href="../assets/estilo.css">
+</head>
+<body>
+<header><div class="contenido">
+<p class="miga"><a href="../index.html">Inicio</a> · 2.º ESO</p>
+<h1>Unidad 11. Cuerpos geométricos</h1>
+</div></header>
+<main>
+<section class="tarjeta" id="a37">
+<h2><span class="numero">37</span>El cono</h2>
+<p>Usa la vista 3D.</p>
+<ol type="a"><li>Escribe <code>c=Cono((0,0,0),(0,0,4),3)</code>. ¿Cuánto miden el radio y la altura del cono?</li><li>Calcula su generatriz con el teorema de Pitágoras y compruébalo con <code>Distancia((0,0,4),(3,0,0))</code>.</li></ol>
+<div class="applet-ancho"><div class="applet" id="caja_a37">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>c=Cono((0,0,0),(0,0,4),3)</code></li><li><code>Distancia((0,0,4),(3,0,0))</code></li></ol></div>
+</section>
+<section class="tarjeta" id="a89">
+<h2><span class="numero">89</span>Cuerpos en 3D</h2>
+<p>Usa la vista 3D.</p>
+<ol type="a"><li>Escribe <code>a=Cubo((0,0,0),(2,0,0))</code> y <code>Volumen(a)</code>. ¿Qué obtienes?</li><li>Crea un deslizador con <code>t=Deslizador(0,1,0.01)</code> y escribe <code>Desarrollo(a,t)</code>. Mueve t. ¿Cuántas caras tiene el desarrollo plano y qué forma tienen?</li><li>Escribe <code>b=Esfera((0,0,0),3)</code> y <code>Volumen(b)</code>. Compruébalo con la fórmula.</li></ol>
+<div class="applet-ancho"><div class="applet" id="caja_a89">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>a=Cubo((0,0,0),(2,0,0))</code></li><li><code>Volumen(a)</code></li><li><code>t=Deslizador(0,1,0.01)</code></li><li><code>t=1</code></li><li><code>Desarrollo(a,t)</code></li><li><code>b=Esfera((0,0,0),3)</code></li><li><code>Volumen(b)</code></li></ol></div>
+</section>
+</main>
+<footer>Applets de GeoGebra del libro de Matemáticas · Colegio Puente</footer>
+<script type="application/json" id="datos-unidad">{"curso": "2ESO", "unidad": "UD11", "titulo": "Cuerpos geométricos", "applets": [{"actividad": 37, "titulo": "El cono", "enunciado": "Usa la vista 3D.", "tareas": ["Escribe <code>c=Cono((0,0,0),(0,0,4),3)<\/code>. ¿Cuánto miden el radio y la altura del cono?", "Calcula su generatriz con el teorema de Pitágoras y compruébalo con <code>Distancia((0,0,4),(3,0,0))<\/code>."], "inicio": [], "solucion": ["c=Cono((0,0,0),(0,0,4),3)", "Distancia((0,0,4),(3,0,0))"], "perspectiva": "AT", "id": "a37", "ggbInicio": [], "ggbSolucion": ["c=Cone((0,0,0),(0,0,4),3)", "Distance((0,0,4),(3,0,0))"]}, {"actividad": 89, "titulo": "Cuerpos en 3D", "enunciado": "Usa la vista 3D.", "tareas": ["Escribe <code>a=Cubo((0,0,0),(2,0,0))<\/code> y <code>Volumen(a)<\/code>. ¿Qué obtienes?", "Crea un deslizador con <code>t=Deslizador(0,1,0.01)<\/code> y escribe <code>Desarrollo(a,t)<\/code>. Mueve t. ¿Cuántas caras tiene el desarrollo plano y qué forma tienen?", "Escribe <code>b=Esfera((0,0,0),3)<\/code> y <code>Volumen(b)<\/code>. Compruébalo con la fórmula."], "inicio": [], "solucion": ["a=Cubo((0,0,0),(2,0,0))", "Volumen(a)", "t=Deslizador(0,1,0.01)", "t=1", "Desarrollo(a,t)", "b=Esfera((0,0,0),3)", "Volumen(b)"], "perspectiva": "AT", "id": "a89", "ggbInicio": [], "ggbSolucion": ["a=Cube((0,0,0),(2,0,0))", "Volume(a)", "t=Slider(0,1,0.01)", "t=1", "Net(a,t)", "b=Sphere((0,0,0),3)", "Volume(b)"]}]}</script>
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<script src="../assets/applet.js"></script>
+</body>
+</html>

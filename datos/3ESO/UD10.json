@@ -1,0 +1,90 @@
+{
+  "curso": "3ESO",
+  "unidad": "UD10",
+  "titulo": "Geometría plana",
+  "applets": [
+    {
+      "actividad": 9,
+      "titulo": "Mediatrices",
+      "enunciado": "Tienes un triángulo. Traza sus tres mediatrices, llama <code>O</code> al punto donde se cortan y mide la distancia de O a cada vértice. Mueve los vértices. ¿Qué observas? ¿Qué circunferencia puedes dibujar con centro en O?",
+      "tareas": [],
+      "inicio": [
+        "A=(0,0)",
+        "B=(6,0)",
+        "C=(2,5)",
+        "t=Polígono(A,B,C)"
+      ],
+      "solucion": [
+        "m1=Mediatriz(A,B)",
+        "m2=Mediatriz(B,C)",
+        "m3=Mediatriz(C,A)",
+        "O=Interseca(m1,m2)",
+        "Distancia(O,A)",
+        "Distancia(O,B)",
+        "Distancia(O,C)",
+        "Circunferencia(O,A)"
+      ],
+      "vista": [
+        -3,
+        9,
+        -3,
+        7
+      ]
+    },
+    {
+      "actividad": 19,
+      "titulo": "Medianas",
+      "enunciado": "Tienes un triángulo. Traza sus tres medianas y llama <code>G</code> a su punto de corte. Mide la distancia de G a un vértice y al punto medio del lado opuesto. Mueve los vértices. ¿Qué relación observas?",
+      "tareas": [],
+      "inicio": [
+        "A=(0,0)",
+        "B=(6,0)",
+        "C=(2,5)",
+        "t=Polígono(A,B,C)"
+      ],
+      "solucion": [
+        "M=PuntoMedio(B,C)",
+        "N=PuntoMedio(C,A)",
+        "P=PuntoMedio(A,B)",
+        "ma=Segmento(A,M)",
+        "mb=Segmento(B,N)",
+        "mc=Segmento(C,P)",
+        "G=Interseca(ma,mb)",
+        "Distancia(G,A)",
+        "Distancia(G,M)"
+      ],
+      "vista": [
+        -2,
+        8,
+        -1,
+        6
+      ]
+    },
+    {
+      "actividad": 37,
+      "titulo": "Pitágoras con áreas",
+      "enunciado": "Tienes un triángulo rectángulo. Con la herramienta <em>Polígono regular</em> (o con <code>Polígono(B,A,4)</code>, <code>Polígono(A,C,4)</code> y <code>Polígono(C,B,4)</code>) construye un cuadrado sobre cada lado y mide sus áreas.",
+      "tareas": [
+        "¿Qué relación hay entre las tres áreas?",
+        "Mueve los vértices sin que deje de ser rectángulo. ¿Se sigue cumpliendo? ¿Y si el triángulo deja de ser rectángulo?"
+      ],
+      "inicio": [
+        "A=(0,0)",
+        "B=(4,0)",
+        "C=(0,3)",
+        "t=Polígono(A,B,C)"
+      ],
+      "solucion": [
+        "c1=Polígono(B,A,4)",
+        "c2=Polígono(A,C,4)",
+        "c3=Polígono(C,B,4)"
+      ],
+      "vista": [
+        -6,
+        10,
+        -5,
+        9
+      ]
+    }
+  ]
+}

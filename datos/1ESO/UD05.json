@@ -1,0 +1,30 @@
+{
+  "curso": "1ESO",
+  "unidad": "UD05",
+  "titulo": "Potencias y raíces",
+  "applets": [
+    {
+      "actividad": 73,
+      "titulo": "Lado y área de un cuadrado",
+      "enunciado": "Tienes un deslizador <code>l</code> y el cuadrado <code>Polígono((0,0),(l,0),4)</code>. Su área aparece en la vista algebraica.",
+      "tareas": [
+        "Pon el lado en 3 y después en 6. ¿Qué le pasa al área al doblar el lado?",
+        "Mueve el deslizador hasta que el área sea lo más cercana posible a 50. ¿Cuánto mide el lado? Compruébalo con la calculadora."
+      ],
+      "inicio": [
+        "l=Deslizador(1,10,0.1)",
+        "l=3",
+        "cuadrado=Polígono((0,0),(l,0),4)"
+      ],
+      "solucion": [
+        "l=7.1"
+      ],
+      "vista": [
+        -1,
+        12,
+        -1,
+        11
+      ]
+    }
+  ]
+}

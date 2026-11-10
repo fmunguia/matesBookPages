@@ -1,0 +1,59 @@
+{
+  "curso": "4ESO-B",
+  "unidad": "UD07",
+  "titulo": "Funciones elementales",
+  "applets": [
+    {
+      "actividad": null,
+      "titulo": "Familias de funciones",
+      "enunciado": "Taller digital. Tienes los deslizadores <code>a</code>, <code>p</code> y <code>q</code> entre −5 y 5 y la función <code>f(x)=a (x-p)^2+q</code>.",
+      "tareas": [
+        "Mueve cada deslizador por separado. Describe qué hace cada uno.",
+        "Repite con <code>g(x)=a/(x-p)+q</code>: ¿dónde están ahora las asíntotas?",
+        "Para funciones a trozos usa <code>Si(x&lt;0, x+2, x^2)</code>."
+      ],
+      "inicio": [
+        "a=Deslizador(-5,5,0.1)",
+        "a=1",
+        "p=Deslizador(-5,5,0.1)",
+        "p=0",
+        "q=Deslizador(-5,5,0.1)",
+        "q=0",
+        "f(x)=a (x-p)^2+q"
+      ],
+      "solucion": [
+        "g(x)=a/(x-p)+q",
+        "x=p",
+        "y=q",
+        "h(x)=Si(x<0, x+2, x^2)"
+      ],
+      "vista": [
+        -7,
+        7,
+        -6,
+        6
+      ],
+      "id": "taller"
+    },
+    {
+      "actividad": 20,
+      "titulo": "Crecimiento de una población",
+      "enunciado": "Una ciudad tiene 1 000 habitantes y su población crece un 5 % cada año, así que a los x años tiene <code>f(x)=1000*1.05^x</code> habitantes. Tienes la función y la recta <code>y=2000</code>. Usa <code>Interseca</code>. ¿Cuántos años tarda en duplicarse la población?",
+      "tareas": [],
+      "inicio": [
+        "f(x)=1000*1.05^x",
+        "r: y=2000"
+      ],
+      "solucion": [
+        "Interseca(f,r)"
+      ],
+      "vista": [
+        -2,
+        25,
+        -300,
+        3500
+      ],
+      "proporcional": false
+    }
+  ]
+}

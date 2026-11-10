@@ -1,0 +1,31 @@
+{
+  "curso": "4ESO-A",
+  "unidad": "UD10",
+  "titulo": "Estadística",
+  "applets": [
+    {
+      "actividad": 100,
+      "titulo": "Viento y olas",
+      "enunciado": "Tienes los datos de viento y olas del club de surf de Liencres en la lista <code>puntos</code> (velocidad del viento X en km/h, altura de las olas Y en m). Obtén la recta de regresión con <code>AjusteLineal(puntos)</code> y el coeficiente de correlación con <code>CoeficienteCorrelación(puntos)</code>. ¿Qué altura de ola cabe esperar un día con viento de 50 km/h? ¿Es fiable la estimación? En la aplicación de GeoGebra también puedes usar la hoja de cálculo y la herramienta <em>Análisis de regresión de dos variables</em>.",
+      "tareas": [],
+      "inicio": [
+        "puntos={(10,0.8),(15,1),(20,1.2),(25,1.5),(30,1.5),(35,1.8),(40,2),(45,2.5)}"
+      ],
+      "solucion": [
+        "r=AjusteLineal(puntos)",
+        "CoeficienteCorrelación(puntos)",
+        "Interseca(r,x=50)"
+      ],
+      "vista": [
+        0,
+        55,
+        -0.3,
+        3
+      ],
+      "proporcional": false,
+      "visibles": [
+        "puntos"
+      ]
+    }
+  ]
+}

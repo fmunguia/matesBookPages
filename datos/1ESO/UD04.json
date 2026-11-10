@@ -1,0 +1,39 @@
+{
+  "curso": "1ESO",
+  "unidad": "UD04",
+  "titulo": "Números decimales",
+  "applets": [
+    {
+      "actividad": 6,
+      "titulo": "Zoom en la recta",
+      "enunciado": "Tienes los puntos <code>A=(2.3,0)</code> y <code>B=(2.4,0)</code>. Acerca la vista con la rueda del ratón (o pellizcando la pantalla) hasta ver bien el espacio entre los dos puntos.",
+      "tareas": [
+        "Escribe tres números decimales que estén entre 2,3 y 2,4 y dibújalos.",
+        "Escribe tres números entre 2,35 y 2,36.",
+        "¿Podrías seguir acercando la vista y encontrando números entre dos cualesquiera? ¿Por qué?"
+      ],
+      "inicio": [
+        "A=(2.3,0)",
+        "B=(2.4,0)"
+      ],
+      "solucion": [
+        "C=(2.31,0)",
+        "D=(2.35,0)",
+        "E=(2.38,0)",
+        "F=(2.351,0)",
+        "G=(2.355,0)",
+        "H=(2.359,0)"
+      ],
+      "vista": [
+        1.5,
+        3.5,
+        -0.6,
+        0.6
+      ],
+      "fijos": [
+        "A",
+        "B"
+      ]
+    }
+  ]
+}

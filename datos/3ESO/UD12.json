@@ -1,0 +1,40 @@
+{
+  "curso": "3ESO",
+  "unidad": "UD12",
+  "titulo": "Cuerpos geométricos",
+  "applets": [
+    {
+      "actividad": 11,
+      "titulo": "El cubo y su desarrollo",
+      "enunciado": "En la vista 3D escribe <code>Cubo((0,0,0),(2,0,0))</code>. Después crea un deslizador con <code>t=Deslizador(0,1,0.01)</code>, escribe <code>Desarrollo(a,t)</code>, donde <code>a</code> es el nombre del cubo, y mueve el deslizador.",
+      "tareas": [
+        "¿Cuántas caras, vértices y aristas tiene? Comprueba la fórmula de Euler.",
+        "Calcula su área y su volumen. Compruébalos: el valor del desarrollo es el área total del cubo, y el volumen se obtiene con <code>Volumen</code>."
+      ],
+      "inicio": [],
+      "solucion": [
+        "a=Cubo((0,0,0),(2,0,0))",
+        "t=Deslizador(0,1,0.01)",
+        "t=1",
+        "Desarrollo(a,t)",
+        "Volumen(a)"
+      ],
+      "perspectiva": "AT"
+    },
+    {
+      "actividad": 18,
+      "titulo": "Dodecaedro e icosaedro",
+      "enunciado": "En la vista 3D escribe <code>Dodecaedro((0,0,0),(1,0,0))</code> y, después, <code>Icosaedro((3,0,0),(4,0,0))</code>.",
+      "tareas": [
+        "Cuenta las caras, los vértices y las aristas de cada uno.",
+        "¿Qué observas al comparar los dos poliedros?"
+      ],
+      "inicio": [],
+      "solucion": [
+        "Dodecaedro((0,0,0),(1,0,0))",
+        "Icosaedro((3,0,0),(4,0,0))"
+      ],
+      "perspectiva": "AT"
+    }
+  ]
+}

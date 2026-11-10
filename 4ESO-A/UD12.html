@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unidad 12. Geometría plana</title>
+<link rel="stylesheet" href="../assets/estilo.css">
+</head>
+<body>
+<header><div class="contenido">
+<p class="miga"><a href="../index.html">Inicio</a> · 4.º ESO · Matemáticas A</p>
+<h1>Unidad 12. Geometría plana</h1>
+</div></header>
+<main>
+<section class="tarjeta" id="a12">
+<h2><span class="numero">12</span>La mediatriz</h2>
+<p>La <em>mediatriz</em> de un segmento es la recta perpendicular a él que pasa por su punto medio. Tienes <code>A=(1,2)</code>, <code>B=(7,4)</code> y el segmento AB. Traza su mediatriz.</p>
+<ol type="a"><li>Coloca un punto P sobre la mediatriz y mide las distancias PA y PB. Mueve P. ¿Qué observas?</li><li>¿En qué punto corta la mediatriz al segmento?</li></ol>
+<div class="applet-ancho"><div class="applet" id="caja_a12">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>m=Mediatriz(A,B)</code></li><li><code>P=Punto(m)</code></li><li><code>Distancia(P,A)</code></li><li><code>Distancia(P,B)</code></li><li><code>M=Interseca(m,s)</code></li></ol></div>
+</section>
+<section class="tarjeta" id="a29">
+<h2><span class="numero">29</span>Ángulos de los polígonos regulares</h2>
+<p>Dibuja polígonos regulares de 3, 4, 5, 6, 7 y 8 lados con la herramienta <em>Polígono regular</em> (o con <code>Polígono((0,0),(2,0),n)</code>) y mide uno de sus ángulos interiores.</p>
+<ol type="a"><li>Anota los resultados en una tabla y comprueba que coinciden con (n − 2)·180º/n.</li><li>¿Qué ocurre con el ángulo al aumentar el número de lados? ¿Puede llegar a medir 180º?</li></ol>
+<div class="applet-ancho"><div class="applet" id="caja_a29">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>p3=Polígono((0,0),(2,0),3)</code></li><li><code>Ángulo(Vértices(p3,3),Vértices(p3,2),Vértices(p3,1))</code></li><li><code>p4=Polígono((3,0),(5,0),4)</code></li><li><code>Ángulo(Vértices(p4,3),Vértices(p4,2),Vértices(p4,1))</code></li><li><code>p5=Polígono((6.5,0),(8.5,0),5)</code></li><li><code>Ángulo(Vértices(p5,3),Vértices(p5,2),Vértices(p5,1))</code></li><li><code>p6=Polígono((10.5,0),(12.5,0),6)</code></li><li><code>Ángulo(Vértices(p6,3),Vértices(p6,2),Vértices(p6,1))</code></li><li><code>p7=Polígono((15,0),(17,0),7)</code></li><li><code>Ángulo(Vértices(p7,3),Vértices(p7,2),Vértices(p7,1))</code></li><li><code>p8=Polígono((20,0),(22,0),8)</code></li><li><code>Ángulo(Vértices(p8,3),Vértices(p8,2),Vértices(p8,1))</code></li></ol></div>
+</section>
+<section class="tarjeta" id="a60">
+<h2><span class="numero">60</span>Triángulos con la misma área</h2>
+<p>Tienes <code>A=(0,0)</code>, <code>B=(6,0)</code>, la recta <code>y=4</code>, un punto C sobre ella y el triángulo ABC con su área.</p>
+<ol type="a"><li>Mueve el punto C por la recta. ¿Qué le ocurre al área? ¿Por qué?</li><li>¿Cambia el perímetro?</li></ol>
+<div class="applet-ancho"><div class="applet" id="caja_a60">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>Área(t)</code></li><li><code>Perímetro(t)</code></li></ol></div>
+</section>
+<section class="tarjeta" id="a86">
+<h2><span class="numero">86</span>Polígonos inscritos y el número π</h2>
+<p>Dibuja una circunferencia de radio 1 e inscribe en ella polígonos regulares de 6, 12, 24 y 96 lados. Mide sus áreas. ¿A qué número se acercan? ¿Por qué?</p>
+
+<div class="applet-ancho"><div class="applet" id="caja_a86">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>c=Circunferencia((0,0),1)</code></li><li><code>p6=Polígono((1,0),(cos(60°),sin(60°)),6)</code></li><li><code>p12=Polígono((1,0),(cos(30°),sin(30°)),12)</code></li><li><code>p24=Polígono((1,0),(cos(15°),sin(15°)),24)</code></li><li><code>p96=Polígono((1,0),(cos(3.75°),sin(3.75°)),96)</code></li></ol></div>
+</section>
+<section class="tarjeta" id="a100">
+<h2><span class="numero">100</span>La elipse</h2>
+<p>Tienes los <em>focos</em> <code>F_1=(-4,0)</code> y <code>F_2=(4,0)</code> y la elipse <code>Elipse(F_1, F_2, (5, 0))</code>.</p>
+<ol type="a"><li>Coloca un punto P sobre la elipse y calcula PF₁ + PF₂. Mueve P. ¿Qué observas?</li><li>¿En qué puntos corta la elipse a los ejes? ¿Cuánto miden sus semiejes?</li><li>Comprueba con el teorema de Pitágoras que el triángulo de vértices (0, 0), F₂ y el punto de corte con el eje Y es rectángulo, y calcula el área de la elipse.</li></ol>
+<div class="applet-ancho"><div class="applet" id="caja_a100">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>P=Punto(e)</code></li><li><code>suma=Distancia(P,F_1)+Distancia(P,F_2)</code></li><li><code>Interseca(e,EjeX)</code></li><li><code>Interseca(e,EjeY)</code></li></ol></div>
+</section>
+</main>
+<footer>Applets de GeoGebra del libro de Matemáticas · Colegio Puente</footer>
+<script type="application/json" id="datos-unidad">{"curso": "4ESO-A", "unidad": "UD12", "titulo": "Geometría plana", "applets": [{"actividad": 12, "titulo": "La mediatriz", "enunciado": "La <em>mediatriz<\/em> de un segmento es la recta perpendicular a él que pasa por su punto medio. Tienes <code>A=(1,2)<\/code>, <code>B=(7,4)<\/code> y el segmento AB. Traza su mediatriz.", "tareas": ["Coloca un punto P sobre la mediatriz y mide las distancias PA y PB. Mueve P. ¿Qué observas?", "¿En qué punto corta la mediatriz al segmento?"], "inicio": ["A=(1,2)", "B=(7,4)", "s=Segmento(A,B)"], "solucion": ["m=Mediatriz(A,B)", "P=Punto(m)", "Distancia(P,A)", "Distancia(P,B)", "M=Interseca(m,s)"], "vista": [-1, 9, -1, 7], "id": "a12", "ggbInicio": ["A=(1,2)", "B=(7,4)", "s=Segment(A,B)"], "ggbSolucion": ["m=PerpendicularBisector(A,B)", "P=Point(m)", "Distance(P,A)", "Distance(P,B)", "M=Intersect(m,s)"]}, {"actividad": 29, "titulo": "Ángulos de los polígonos regulares", "enunciado": "Dibuja polígonos regulares de 3, 4, 5, 6, 7 y 8 lados con la herramienta <em>Polígono regular<\/em> (o con <code>Polígono((0,0),(2,0),n)<\/code>) y mide uno de sus ángulos interiores.", "tareas": ["Anota los resultados en una tabla y comprueba que coinciden con (n − 2)·180º/n.", "¿Qué ocurre con el ángulo al aumentar el número de lados? ¿Puede llegar a medir 180º?"], "inicio": [], "solucion": ["p3=Polígono((0,0),(2,0),3)", "Ángulo(Vértices(p3,3),Vértices(p3,2),Vértices(p3,1))", "p4=Polígono((3,0),(5,0),4)", "Ángulo(Vértices(p4,3),Vértices(p4,2),Vértices(p4,1))", "p5=Polígono((6.5,0),(8.5,0),5)", "Ángulo(Vértices(p5,3),Vértices(p5,2),Vértices(p5,1))", "p6=Polígono((10.5,0),(12.5,0),6)", "Ángulo(Vértices(p6,3),Vértices(p6,2),Vértices(p6,1))", "p7=Polígono((15,0),(17,0),7)", "Ángulo(Vértices(p7,3),Vértices(p7,2),Vértices(p7,1))", "p8=Polígono((20,0),(22,0),8)", "Ángulo(Vértices(p8,3),Vértices(p8,2),Vértices(p8,1))"], "vista": [-1, 25, -2, 7], "id": "a29", "ggbInicio": [], "ggbSolucion": ["p3=Polygon((0,0),(2,0),3)", "Angle(Vertex(p3,3),Vertex(p3,2),Vertex(p3,1))", "p4=Polygon((3,0),(5,0),4)", "Angle(Vertex(p4,3),Vertex(p4,2),Vertex(p4,1))", "p5=Polygon((6.5,0),(8.5,0),5)", "Angle(Vertex(p5,3),Vertex(p5,2),Vertex(p5,1))", "p6=Polygon((10.5,0),(12.5,0),6)", "Angle(Vertex(p6,3),Vertex(p6,2),Vertex(p6,1))", "p7=Polygon((15,0),(17,0),7)", "Angle(Vertex(p7,3),Vertex(p7,2),Vertex(p7,1))", "p8=Polygon((20,0),(22,0),8)", "Angle(Vertex(p8,3),Vertex(p8,2),Vertex(p8,1))"]}, {"actividad": 60, "titulo": "Triángulos con la misma área", "enunciado": "Tienes <code>A=(0,0)<\/code>, <code>B=(6,0)<\/code>, la recta <code>y=4<\/code>, un punto C sobre ella y el triángulo ABC con su área.", "tareas": ["Mueve el punto C por la recta. ¿Qué le ocurre al área? ¿Por qué?", "¿Cambia el perímetro?"], "inicio": ["A=(0,0)", "B=(6,0)", "r: y=4", "C=Punto(r)", "SetCoords(C,2,4)", "t=Polígono(A,B,C)"], "solucion": ["Área(t)", "Perímetro(t)"], "vista": [-5, 11, -1, 6], "fijos": ["A", "B"], "id": "a60", "ggbInicio": ["A=(0,0)", "B=(6,0)", "r: y=4", "C=Point(r)", "SetCoords(C,2,4)", "t=Polygon(A,B,C)"], "ggbSolucion": ["Area(t)", "Perimeter(t)"]}, {"actividad": 86, "titulo": "Polígonos inscritos y el número π", "enunciado": "Dibuja una circunferencia de radio 1 e inscribe en ella polígonos regulares de 6, 12, 24 y 96 lados. Mide sus áreas. ¿A qué número se acercan? ¿Por qué?", "tareas": [], "inicio": [], "solucion": ["c=Circunferencia((0,0),1)", "p6=Polígono((1,0),(cos(60°),sin(60°)),6)", "p12=Polígono((1,0),(cos(30°),sin(30°)),12)", "p24=Polígono((1,0),(cos(15°),sin(15°)),24)", "p96=Polígono((1,0),(cos(3.75°),sin(3.75°)),96)"], "vista": [-1.8, 1.8, -1.3, 1.3], "id": "a86", "ggbInicio": [], "ggbSolucion": ["c=Circle((0,0),1)", "p6=Polygon((1,0),(cos(60°),sin(60°)),6)", "p12=Polygon((1,0),(cos(30°),sin(30°)),12)", "p24=Polygon((1,0),(cos(15°),sin(15°)),24)", "p96=Polygon((1,0),(cos(3.75°),sin(3.75°)),96)"]}, {"actividad": 100, "titulo": "La elipse", "enunciado": "Tienes los <em>focos<\/em> <code>F_1=(-4,0)<\/code> y <code>F_2=(4,0)<\/code> y la elipse <code>Elipse(F_1, F_2, (5, 0))<\/code>.", "tareas": ["Coloca un punto P sobre la elipse y calcula PF₁ + PF₂. Mueve P. ¿Qué observas?", "¿En qué puntos corta la elipse a los ejes? ¿Cuánto miden sus semiejes?", "Comprueba con el teorema de Pitágoras que el triángulo de vértices (0, 0), F₂ y el punto de corte con el eje Y es rectángulo, y calcula el área de la elipse."], "inicio": ["F_1=(-4,0)", "F_2=(4,0)", "e=Elipse(F_1, F_2, (5, 0))"], "solucion": ["P=Punto(e)", "suma=Distancia(P,F_1)+Distancia(P,F_2)", "Interseca(e,EjeX)", "Interseca(e,EjeY)"], "vista": [-7, 7, -4.5, 4.5], "fijos": ["F_1", "F_2"], "id": "a100", "ggbInicio": ["F_1=(-4,0)", "F_2=(4,0)", "e=Ellipse(F_1, F_2, (5, 0))"], "ggbSolucion": ["P=Point(e)", "suma=Distance(P,F_1)+Distance(P,F_2)", "Intersect(e,xAxis)", "Intersect(e,yAxis)"]}]}</script>
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<script src="../assets/applet.js"></script>
+</body>
+</html>

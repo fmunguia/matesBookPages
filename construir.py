@@ -27,14 +27,49 @@ ORDENES = {
     "Polígono": "Polygon",
     "Segmento": "Segment",
     "Recta": "Line",
+    "Perpendicular": "PerpendicularLine",
+    "Mediatriz": "PerpendicularBisector",
+    "Bisectriz": "AngleBisector",
     "Circunferencia": "Circle",
+    "Elipse": "Ellipse",
     "Punto": "Point",
     "PuntoMedio": "Midpoint",
+    "Vértices": "Vertex",
+    "Vector": "Vector",
+    "Ángulo": "Angle",
+    "Distancia": "Distance",
+    "Longitud": "Length",
+    "Pendiente": "Slope",
+    "Perímetro": "Perimeter",
+    "Área": "Area",
+    "Interseca": "Intersect",
+    "Raíz": "Root",
+    "Extremo": "Extremum",
+    "Resuelve": "Solve",
+    "Desarrolla": "Expand",
+    "Factoriza": "Factor",
     "Rota": "Rotate",
     "Traslada": "Translate",
     "Refleja": "Reflect",
     "Homotecia": "Dilate",
     "Secuencia": "Sequence",
+    "Suma": "Sum",
+    "AleatorioEntre": "RandomBetween",
+    "Media": "Mean",
+    "Mediana": "Median",
+    "Moda": "Mode",
+    "DE": "SD",
+    "DiagramaCaja": "BoxPlot",
+    "AjusteLineal": "FitLine",
+    "CoeficienteCorrelación": "CorrelationCoefficient",
+    "Cubo": "Cube",
+    "Dodecaedro": "Dodecahedron",
+    "Icosaedro": "Icosahedron",
+    "Cono": "Cone",
+    "Cilindro": "Cylinder",
+    "Esfera": "Sphere",
+    "Desarrollo": "Net",
+    "Volumen": "Volume",
     "Función": "Function",
     "Si": "If",
     "Deslizador": "Slider",
@@ -80,24 +115,29 @@ def tarjeta(a):
     if a.get("tareas"):
         tareas = '<ol type="a">' + "".join(f"<li>{t}</li>" for t in a["tareas"]) + "</ol>"
     pasos = "".join(f"<li><code>{html.escape(p)}</code></li>" for p in a["solucion"])
+    numero = a["actividad"] if a.get("actividad") else "Taller"
+    boton_solucion = solucion = ""
+    if a["solucion"]:
+        boton_solucion = '<button type="button" data-accion="solucion">Ver solución</button>'
+        solucion = f'<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol>{pasos}</ol></div>'
     return f"""<section class="tarjeta" id="{a['id']}">
-<h2><span class="numero">{a['actividad']}</span>{html.escape(a['titulo'])}</h2>
+<h2><span class="numero">{numero}</span>{html.escape(a['titulo'])}</h2>
 <p>{a['enunciado']}</p>
 {tareas}
 <div class="applet-ancho"><div class="applet" id="caja_{a['id']}">Cargando GeoGebra…</div></div>
 <div class="botones">
 <button type="button" data-accion="reiniciar">Reiniciar</button>
-<button type="button" data-accion="solucion">Ver solución</button>
+{boton_solucion}
 <button type="button" data-accion="descargar">Descargar .ggb</button>
 </div>
-<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol>{pasos}</ol></div>
+{solucion}
 </section>"""
 
 
 def construye_unidad(ruta):
     datos = json.loads(ruta.read_text(encoding="utf-8"))
     for a in datos["applets"]:
-        a["id"] = f"a{a['actividad']}"
+        a.setdefault("id", f"a{a['actividad']}")
         a["ggbInicio"] = [traduce(o) for o in a.get("inicio", [])]
         a["ggbSolucion"] = [traduce(o) for o in a["solucion"]]
     curso = datos["curso"]

@@ -1,0 +1,63 @@
+{
+  "curso": "4ESO-B",
+  "unidad": "UD10",
+  "titulo": "Geometría analítica",
+  "applets": [
+    {
+      "actividad": null,
+      "titulo": "Pendiente y ordenada en el origen",
+      "enunciado": "Taller digital. Tienes dos deslizadores <code>m</code> y <code>n</code> entre −5 y 5 y la recta <code>r: y = m x + n</code>.",
+      "tareas": [
+        "Mueve <code>n</code> sin tocar <code>m</code>: ¿qué tienen en común todas las rectas que obtienes?",
+        "Mueve <code>m</code> sin tocar <code>n</code>: ¿por qué punto pasan todas?",
+        "Escribe <code>Perpendicular((0,n), r)</code> y comprueba con <code>Pendiente(...)</code> que el producto de las pendientes vale −1."
+      ],
+      "inicio": [
+        "m=Deslizador(-5,5,0.1)",
+        "m=1",
+        "n=Deslizador(-5,5,0.1)",
+        "n=1",
+        "r: y=m x+n"
+      ],
+      "solucion": [
+        "s=Perpendicular((0,n), r)",
+        "Pendiente(r)*Pendiente(s)"
+      ],
+      "vista": [
+        -7,
+        7,
+        -5,
+        6
+      ],
+      "id": "taller"
+    },
+    {
+      "actividad": 14,
+      "titulo": "El baricentro",
+      "enunciado": "Tienes el triángulo de vértices <code>A=(1,1)</code>, <code>B=(5,2)</code> y <code>C=(3,6)</code>. Traza sus tres medianas (cada una une un vértice con el punto medio del lado opuesto) y halla su punto de corte, el baricentro. Comprueba que coincide con ((x<sub>A</sub>+x<sub>B</sub>+x<sub>C</sub>)/3, (y<sub>A</sub>+y<sub>B</sub>+y<sub>C</sub>)/3).",
+      "tareas": [],
+      "inicio": [
+        "A=(1,1)",
+        "B=(5,2)",
+        "C=(3,6)",
+        "t=Polígono(A,B,C)"
+      ],
+      "solucion": [
+        "M=PuntoMedio(B,C)",
+        "N=PuntoMedio(C,A)",
+        "P=PuntoMedio(A,B)",
+        "ma=Segmento(A,M)",
+        "mb=Segmento(B,N)",
+        "mc=Segmento(C,P)",
+        "G=Interseca(ma,mb)",
+        "((x(A)+x(B)+x(C))/3, (y(A)+y(B)+y(C))/3)"
+      ],
+      "vista": [
+        -1,
+        7,
+        -1,
+        7
+      ]
+    }
+  ]
+}

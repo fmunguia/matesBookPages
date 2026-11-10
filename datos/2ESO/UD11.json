@@ -1,0 +1,43 @@
+{
+  "curso": "2ESO",
+  "unidad": "UD11",
+  "titulo": "Cuerpos geométricos",
+  "applets": [
+    {
+      "actividad": 37,
+      "titulo": "El cono",
+      "enunciado": "Usa la vista 3D.",
+      "tareas": [
+        "Escribe <code>c=Cono((0,0,0),(0,0,4),3)</code>. ¿Cuánto miden el radio y la altura del cono?",
+        "Calcula su generatriz con el teorema de Pitágoras y compruébalo con <code>Distancia((0,0,4),(3,0,0))</code>."
+      ],
+      "inicio": [],
+      "solucion": [
+        "c=Cono((0,0,0),(0,0,4),3)",
+        "Distancia((0,0,4),(3,0,0))"
+      ],
+      "perspectiva": "AT"
+    },
+    {
+      "actividad": 89,
+      "titulo": "Cuerpos en 3D",
+      "enunciado": "Usa la vista 3D.",
+      "tareas": [
+        "Escribe <code>a=Cubo((0,0,0),(2,0,0))</code> y <code>Volumen(a)</code>. ¿Qué obtienes?",
+        "Crea un deslizador con <code>t=Deslizador(0,1,0.01)</code> y escribe <code>Desarrollo(a,t)</code>. Mueve t. ¿Cuántas caras tiene el desarrollo plano y qué forma tienen?",
+        "Escribe <code>b=Esfera((0,0,0),3)</code> y <code>Volumen(b)</code>. Compruébalo con la fórmula."
+      ],
+      "inicio": [],
+      "solucion": [
+        "a=Cubo((0,0,0),(2,0,0))",
+        "Volumen(a)",
+        "t=Deslizador(0,1,0.01)",
+        "t=1",
+        "Desarrollo(a,t)",
+        "b=Esfera((0,0,0),3)",
+        "Volumen(b)"
+      ],
+      "perspectiva": "AT"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "curso": "2ESO",
+  "unidad": "UD10",
+  "titulo": "Pitágoras, perímetros y áreas",
+  "applets": [
+    {
+      "actividad": 11,
+      "titulo": "Comprueba el teorema de Pitágoras",
+      "enunciado": "Tienes un triángulo rectángulo. Construye un cuadrado sobre cada lado con la herramienta <em>Polígono regular</em> (o con <code>Polígono(B,A,4)</code>, <code>Polígono(A,C,4)</code> y <code>Polígono(C,B,4)</code>) y mide sus áreas. Mueve B y C: el triángulo sigue siendo rectángulo. ¿Qué relación se mantiene?",
+      "tareas": [],
+      "inicio": [
+        "A=(0,0)",
+        "B=Punto(EjeX)",
+        "SetCoords(B,4,0)",
+        "C=Punto(EjeY)",
+        "SetCoords(C,0,3)",
+        "t=Polígono(A,B,C)"
+      ],
+      "solucion": [
+        "c1=Polígono(B,A,4)",
+        "c2=Polígono(A,C,4)",
+        "c3=Polígono(C,B,4)"
+      ],
+      "vista": [
+        -6,
+        10,
+        -5,
+        9
+      ],
+      "fijos": [
+        "A"
+      ]
+    },
+    {
+      "actividad": 51,
+      "titulo": "Área de un polígono irregular",
+      "enunciado": "Tienes el polígono <code>Polígono((0,0),(6,0),(8,4),(3,7),(-1,4))</code>.",
+      "tareas": [
+        "¿Qué área indica GeoGebra?",
+        "Traza la diagonal desde (0, 0) hasta (8, 4) y hasta (3, 7), y usa <code>Polígono</code> para calcular el área de cada triángulo. ¿Suman lo mismo?"
+      ],
+      "inicio": [
+        "p=Polígono((0,0),(6,0),(8,4),(3,7),(-1,4))"
+      ],
+      "solucion": [
+        "t1=Polígono((0,0),(6,0),(8,4))",
+        "t2=Polígono((0,0),(8,4),(3,7))",
+        "t3=Polígono((0,0),(3,7),(-1,4))"
+      ],
+      "vista": [
+        -3,
+        10,
+        -2,
+        8
+      ]
+    }
+  ]
+}

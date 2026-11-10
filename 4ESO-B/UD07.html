@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unidad 7. Funciones elementales</title>
+<link rel="stylesheet" href="../assets/estilo.css">
+</head>
+<body>
+<header><div class="contenido">
+<p class="miga"><a href="../index.html">Inicio</a> · 4.º ESO · Matemáticas B</p>
+<h1>Unidad 7. Funciones elementales</h1>
+</div></header>
+<main>
+<section class="tarjeta" id="taller">
+<h2><span class="numero">Taller</span>Familias de funciones</h2>
+<p>Taller digital. Tienes los deslizadores <code>a</code>, <code>p</code> y <code>q</code> entre −5 y 5 y la función <code>f(x)=a (x-p)^2+q</code>.</p>
+<ol type="a"><li>Mueve cada deslizador por separado. Describe qué hace cada uno.</li><li>Repite con <code>g(x)=a/(x-p)+q</code>: ¿dónde están ahora las asíntotas?</li><li>Para funciones a trozos usa <code>Si(x&lt;0, x+2, x^2)</code>.</li></ol>
+<div class="applet-ancho"><div class="applet" id="caja_taller">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>g(x)=a/(x-p)+q</code></li><li><code>x=p</code></li><li><code>y=q</code></li><li><code>h(x)=Si(x&lt;0, x+2, x^2)</code></li></ol></div>
+</section>
+<section class="tarjeta" id="a20">
+<h2><span class="numero">20</span>Crecimiento de una población</h2>
+<p>Una ciudad tiene 1 000 habitantes y su población crece un 5 % cada año, así que a los x años tiene <code>f(x)=1000*1.05^x</code> habitantes. Tienes la función y la recta <code>y=2000</code>. Usa <code>Interseca</code>. ¿Cuántos años tarda en duplicarse la población?</p>
+
+<div class="applet-ancho"><div class="applet" id="caja_a20">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>Interseca(f,r)</code></li></ol></div>
+</section>
+</main>
+<footer>Applets de GeoGebra del libro de Matemáticas · Colegio Puente</footer>
+<script type="application/json" id="datos-unidad">{"curso": "4ESO-B", "unidad": "UD07", "titulo": "Funciones elementales", "applets": [{"actividad": null, "titulo": "Familias de funciones", "enunciado": "Taller digital. Tienes los deslizadores <code>a<\/code>, <code>p<\/code> y <code>q<\/code> entre −5 y 5 y la función <code>f(x)=a (x-p)^2+q<\/code>.", "tareas": ["Mueve cada deslizador por separado. Describe qué hace cada uno.", "Repite con <code>g(x)=a/(x-p)+q<\/code>: ¿dónde están ahora las asíntotas?", "Para funciones a trozos usa <code>Si(x&lt;0, x+2, x^2)<\/code>."], "inicio": ["a=Deslizador(-5,5,0.1)", "a=1", "p=Deslizador(-5,5,0.1)", "p=0", "q=Deslizador(-5,5,0.1)", "q=0", "f(x)=a (x-p)^2+q"], "solucion": ["g(x)=a/(x-p)+q", "x=p", "y=q", "h(x)=Si(x<0, x+2, x^2)"], "vista": [-7, 7, -6, 6], "id": "taller", "ggbInicio": ["a=Slider(-5,5,0.1)", "a=1", "p=Slider(-5,5,0.1)", "p=0", "q=Slider(-5,5,0.1)", "q=0", "f(x)=a (x-p)^2+q"], "ggbSolucion": ["g(x)=a/(x-p)+q", "x=p", "y=q", "h(x)=If(x<0, x+2, x^2)"]}, {"actividad": 20, "titulo": "Crecimiento de una población", "enunciado": "Una ciudad tiene 1 000 habitantes y su población crece un 5 % cada año, así que a los x años tiene <code>f(x)=1000*1.05^x<\/code> habitantes. Tienes la función y la recta <code>y=2000<\/code>. Usa <code>Interseca<\/code>. ¿Cuántos años tarda en duplicarse la población?", "tareas": [], "inicio": ["f(x)=1000*1.05^x", "r: y=2000"], "solucion": ["Interseca(f,r)"], "vista": [-2, 25, -300, 3500], "proporcional": false, "id": "a20", "ggbInicio": ["f(x)=1000*1.05^x", "r: y=2000"], "ggbSolucion": ["Intersect(f,r)"]}]}</script>
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<script src="../assets/applet.js"></script>
+</body>
+</html>

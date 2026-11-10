@@ -1,0 +1,53 @@
+{
+  "curso": "4ESO-B",
+  "unidad": "UD04",
+  "titulo": "Ecuaciones e inecuaciones",
+  "applets": [
+    {
+      "actividad": null,
+      "titulo": "Resolver gráficamente",
+      "enunciado": "Sigue los pasos del <em>Taller digital</em>: escribe cada miembro de la ecuación 2<sup>x</sup> = x + 3 como una función, <code>f(x)=2^x</code> y <code>g(x)=x+3</code>, y busca los cortes con <code>Interseca(f, g, -5, 5)</code>. Para una inecuación como x² − 2x − 3 ≥ 0, dibuja <code>h(x)=x^2-2x-3</code> y observa en qué tramos está por encima del eje X; también puedes escribir <code>Resuelve(x^2-2x-3>=0)</code>.",
+      "tareas": [
+        "Halla las soluciones aproximadas de 2<sup>x</sup> = x + 3 y de log x = x − 2 (en GeoGebra, el logaritmo decimal es <code>lg(x)</code>). ¿Se podrían resolver con los métodos de esta unidad?"
+      ],
+      "inicio": [],
+      "solucion": [
+        "f(x)=2^x",
+        "g(x)=x+3",
+        "Interseca(f,g,-5,5)",
+        "h(x)=x^2-2x-3",
+        "Resuelve(x^2-2x-3>=0)",
+        "p(x)=lg(x)",
+        "q(x)=x-2",
+        "Interseca(p,q,0.001,10)"
+      ],
+      "vista": [
+        -5,
+        6,
+        -4,
+        8
+      ],
+      "id": "taller"
+    },
+    {
+      "actividad": 80,
+      "titulo": "Inecuación de segundo grado",
+      "enunciado": "Tienes la parábola <code>y=x^2-x-6</code>. Observa en qué valores de x la gráfica queda por debajo del eje X y escribe la solución de la inecuación x² − x − 6 &lt; 0. Compruébalo resolviéndola a mano.",
+      "tareas": [],
+      "inicio": [
+        "f(x)=x^2-x-6"
+      ],
+      "solucion": [
+        "Raíz(f)",
+        "x^2-x-6<0",
+        "Resuelve(x^2-x-6<0)"
+      ],
+      "vista": [
+        -5,
+        6,
+        -8,
+        6
+      ]
+    }
+  ]
+}

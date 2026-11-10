@@ -1,0 +1,43 @@
+{
+  "curso": "2ESO",
+  "unidad": "UD05",
+  "titulo": "Lenguaje algebraico y polinomios",
+  "applets": [
+    {
+      "actividad": 90,
+      "titulo": "Comprueba tus cálculos",
+      "enunciado": "En GeoGebra, <code>Desarrolla</code> desarrolla una expresión y <code>Factoriza</code> la factoriza. Hazlo primero a mano y después compruébalo en la barra de entrada.",
+      "tareas": [
+        "(2x − 3)²",
+        "x² − 16",
+        "3x² + 6x"
+      ],
+      "inicio": [],
+      "solucion": [
+        "Desarrolla((2x-3)^2)",
+        "Factoriza(x^2-16)",
+        "Factoriza(3x^2+6x)"
+      ],
+      "perspectiva": "A"
+    },
+    {
+      "actividad": 91,
+      "titulo": "Desarrollar y factorizar",
+      "enunciado": "Usa la barra de entrada de GeoGebra.",
+      "tareas": [
+        "Escribe <code>Desarrolla((x-2)(x-3))</code>. ¿Qué obtienes?",
+        "Escribe <code>Factoriza(x^2-5x+6)</code>. ¿Qué obtienes?",
+        "Calcula el valor numérico de x² − 5x + 6 para x = 2 y x = 3. ¿Qué observas?"
+      ],
+      "inicio": [],
+      "solucion": [
+        "Desarrolla((x-2)(x-3))",
+        "Factoriza(x^2-5x+6)",
+        "f(x)=x^2-5x+6",
+        "f(2)",
+        "f(3)"
+      ],
+      "perspectiva": "A"
+    }
+  ]
+}

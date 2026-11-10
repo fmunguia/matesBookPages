@@ -1,0 +1,27 @@
+{
+  "curso": "4ESO-B",
+  "unidad": "UD06",
+  "titulo": "Estudio de funciones",
+  "applets": [
+    {
+      "actividad": 15,
+      "titulo": "Simetrías y extremos",
+      "enunciado": "Tienes <code>f(x)=x^4-2x^2</code> y <code>g(x)=x^3-x</code>. Observa sus simetrías y compruébalas calculando f(−x) y g(−x). Usa el comando <code>Extremo</code> para hallar sus máximos y mínimos relativos.",
+      "tareas": [],
+      "inicio": [
+        "f(x)=x^4-2x^2",
+        "g(x)=x^3-x"
+      ],
+      "solucion": [
+        "Extremo(f)",
+        "Extremo(g)"
+      ],
+      "vista": [
+        -3,
+        3,
+        -2,
+        2
+      ]
+    }
+  ]
+}

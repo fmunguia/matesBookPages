@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unidad 8. Funciones y gráficas</title>
+<link rel="stylesheet" href="../assets/estilo.css">
+</head>
+<body>
+<header><div class="contenido">
+<p class="miga"><a href="../index.html">Inicio</a> · 2.º ESO</p>
+<h1>Unidad 8. Funciones y gráficas</h1>
+</div></header>
+<main>
+<section class="tarjeta" id="a65">
+<h2><span class="numero">65</span>Deslizadores</h2>
+<p>Tienes un deslizador <code>m</code> y la recta <code>y=m x+2</code>. Mueve el deslizador.</p>
+<ol type="a"><li>¿Qué cambia en la recta al cambiar m?</li><li>¿Qué punto tienen todas en común?</li><li>¿Qué ocurre cuando m = 0?</li></ol>
+<div class="applet-ancho"><div class="applet" id="caja_a65">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>P=(0,2)</code></li><li><code>m=0</code></li></ol></div>
+</section>
+<section class="tarjeta" id="a66">
+<h2><span class="numero">66</span>La recta que pasa por dos puntos</h2>
+<p>Escribe <code>Recta((1,3),(4,9))</code> y después <code>Pendiente(f)</code>, donde <code>f</code> es el nombre que GeoGebra le ha dado a la recta.</p>
+<ol type="a"><li>¿Qué ecuación tiene la recta? ¿Cuál es su pendiente?</li><li>Comprueba con la ecuación si el punto (−2, −3) está en la recta. Dibújalo para confirmarlo.</li></ol>
+<div class="applet-ancho"><div class="applet" id="caja_a66">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>f=Recta((1,3),(4,9))</code></li><li><code>Pendiente(f)</code></li><li><code>P=(-2,-3)</code></li></ol></div>
+</section>
+<section class="tarjeta" id="a97">
+<h2><span class="numero">97</span>La parábola y = ax²</h2>
+<p>Tienes un deslizador <code>a</code> y la parábola <code>y=a x^2</code>. Mueve el deslizador entre −3 y 3.</p>
+<ol type="a"><li>¿Qué pasa cuando a es negativo?</li><li>¿Cómo cambia la parábola al aumentar a?</li><li>¿Qué se obtiene cuando a = 0?</li></ol>
+<div class="applet-ancho"><div class="applet" id="caja_a97">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>a=0</code></li></ol></div>
+</section>
+</main>
+<footer>Applets de GeoGebra del libro de Matemáticas · Colegio Puente</footer>
+<script type="application/json" id="datos-unidad">{"curso": "2ESO", "unidad": "UD08", "titulo": "Funciones y gráficas", "applets": [{"actividad": 65, "titulo": "Deslizadores", "enunciado": "Tienes un deslizador <code>m<\/code> y la recta <code>y=m x+2<\/code>. Mueve el deslizador.", "tareas": ["¿Qué cambia en la recta al cambiar m?", "¿Qué punto tienen todas en común?", "¿Qué ocurre cuando m = 0?"], "inicio": ["m=Deslizador(-5,5,0.1)", "m=1", "y=m x+2"], "solucion": ["P=(0,2)", "m=0"], "vista": [-6, 6, -4, 7], "id": "a65", "ggbInicio": ["m=Slider(-5,5,0.1)", "m=1", "y=m x+2"], "ggbSolucion": ["P=(0,2)", "m=0"]}, {"actividad": 66, "titulo": "La recta que pasa por dos puntos", "enunciado": "Escribe <code>Recta((1,3),(4,9))<\/code> y después <code>Pendiente(f)<\/code>, donde <code>f<\/code> es el nombre que GeoGebra le ha dado a la recta.", "tareas": ["¿Qué ecuación tiene la recta? ¿Cuál es su pendiente?", "Comprueba con la ecuación si el punto (−2, −3) está en la recta. Dibújalo para confirmarlo."], "inicio": [], "solucion": ["f=Recta((1,3),(4,9))", "Pendiente(f)", "P=(-2,-3)"], "vista": [-5, 7, -5, 11], "id": "a66", "ggbInicio": [], "ggbSolucion": ["f=Line((1,3),(4,9))", "Slope(f)", "P=(-2,-3)"]}, {"actividad": 97, "titulo": "La parábola y = ax²", "enunciado": "Tienes un deslizador <code>a<\/code> y la parábola <code>y=a x^2<\/code>. Mueve el deslizador entre −3 y 3.", "tareas": ["¿Qué pasa cuando a es negativo?", "¿Cómo cambia la parábola al aumentar a?", "¿Qué se obtiene cuando a = 0?"], "inicio": ["a=Deslizador(-3,3,0.1)", "a=1", "f(x)=a x^2"], "solucion": ["a=0"], "vista": [-6, 6, -6, 6], "id": "a97", "ggbInicio": ["a=Slider(-3,3,0.1)", "a=1", "f(x)=a x^2"], "ggbSolucion": ["a=0"]}]}</script>
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<script src="../assets/applet.js"></script>
+</body>
+</html>

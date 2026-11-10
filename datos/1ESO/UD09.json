@@ -1,0 +1,53 @@
+{
+  "curso": "1ESO",
+  "unidad": "UD09",
+  "titulo": "Coordenadas y gráficas",
+  "applets": [
+    {
+      "actividad": 17,
+      "titulo": "Un triángulo en el plano",
+      "enunciado": "Tienes los puntos <code>A=(1,1)</code>, <code>B=(5,1)</code>, <code>C=(5,4)</code> y el triángulo <code>Polígono(A,B,C)</code>.",
+      "tareas": [
+        "¿Qué tipo de triángulo es?",
+        "¿Qué área indica GeoGebra? Compruébala con la fórmula.",
+        "Escribe <code>Distancia(A,C)</code>. ¿Cuánto mide el lado más largo?"
+      ],
+      "inicio": [
+        "A=(1,1)",
+        "B=(5,1)",
+        "C=(5,4)",
+        "t=Polígono(A,B,C)"
+      ],
+      "solucion": [
+        "Distancia(A,C)"
+      ],
+      "vista": [
+        -1,
+        7,
+        -1,
+        5.5
+      ]
+    },
+    {
+      "actividad": 85,
+      "titulo": "Rectas por el origen",
+      "enunciado": "Escribe en la barra de entrada <code>y=3x</code>, <code>y=0.5x</code> e <code>y=-2x</code>.",
+      "tareas": [
+        "¿Qué punto tienen en común las tres gráficas?",
+        "¿Cómo influye el número que multiplica a x?"
+      ],
+      "inicio": [],
+      "solucion": [
+        "y=3x",
+        "y=0.5x",
+        "y=-2x"
+      ],
+      "vista": [
+        -6,
+        6,
+        -5,
+        5
+      ]
+    }
+  ]
+}

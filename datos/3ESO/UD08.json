@@ -1,0 +1,73 @@
+{
+  "curso": "3ESO",
+  "unidad": "UD08",
+  "titulo": "Funciones y gráficas",
+  "applets": [
+    {
+      "actividad": 50,
+      "titulo": "Máximos, mínimos y cortes",
+      "enunciado": "Tienes la función <code>f(x)=x^3-3x</code>. Usa los comandos <code>Extremo</code> y <code>Raíz</code> para hallar sus máximos y mínimos relativos y sus cortes con el eje X. Indica los intervalos de crecimiento y decrecimiento.",
+      "tareas": [],
+      "inicio": [
+        "f(x)=x^3-3x"
+      ],
+      "solucion": [
+        "Extremo(f)",
+        "Raíz(f)"
+      ],
+      "vista": [
+        -4,
+        4,
+        -3,
+        3
+      ]
+    },
+    {
+      "actividad": 51,
+      "titulo": "Una función acotada",
+      "enunciado": "Tienes la función <code>f(x)=4/(x^2+1)</code>.",
+      "tareas": [
+        "¿Tiene máximos o mínimos? ¿Corta al eje X?",
+        "¿Cuál es su recorrido?",
+        "¿Qué le ocurre a la función cuando x se hace muy grande?"
+      ],
+      "inicio": [
+        "f(x)=4/(x^2+1)"
+      ],
+      "solucion": [
+        "Extremo(f,-5,5)"
+      ],
+      "vista": [
+        -8,
+        8,
+        -2,
+        5
+      ]
+    },
+    {
+      "actividad": 72,
+      "titulo": "Un deslizador en la parábola",
+      "enunciado": "Tienes un deslizador <code>k</code> entre −5 y 5 y la función <code>f(x)=x^2+2x+k</code>. Mueve el deslizador.",
+      "tareas": [
+        "¿Para qué valores de k corta la gráfica al eje X en dos puntos? ¿En uno? ¿En ninguno?",
+        "¿Dónde corta al eje Y?"
+      ],
+      "inicio": [
+        "k=Deslizador(-5,5,0.1)",
+        "k=-3",
+        "f(x)=x^2+2x+k"
+      ],
+      "solucion": [
+        "k=1",
+        "Raíz(f)",
+        "P=(0,k)"
+      ],
+      "vista": [
+        -6,
+        4,
+        -4,
+        8
+      ]
+    }
+  ]
+}

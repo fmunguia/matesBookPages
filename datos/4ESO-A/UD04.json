@@ -1,0 +1,32 @@
+{
+  "curso": "4ESO-A",
+  "unidad": "UD04",
+  "titulo": "Números reales",
+  "applets": [
+    {
+      "actividad": 52,
+      "titulo": "Representar √2",
+      "enunciado": "Tienes el punto <code>P=(1,1)</code>. Dibuja la circunferencia con centro en el origen que pasa por P y marca el punto donde corta a la parte positiva del eje X.",
+      "tareas": [
+        "¿Qué número representa ese punto? Justifícalo con el teorema de Pitágoras.",
+        "Repite la construcción con el punto (2, 1). ¿Qué número obtienes?"
+      ],
+      "inicio": [
+        "P=(1,1)"
+      ],
+      "solucion": [
+        "c=Circunferencia((0,0),P)",
+        "Interseca(c,EjeX)",
+        "Q=(2,1)",
+        "d=Circunferencia((0,0),Q)",
+        "Interseca(d,EjeX)"
+      ],
+      "vista": [
+        -3,
+        3,
+        -2.5,
+        2.5
+      ]
+    }
+  ]
+}

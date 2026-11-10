@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unidad 10. Geometría plana</title>
+<link rel="stylesheet" href="../assets/estilo.css">
+</head>
+<body>
+<header><div class="contenido">
+<p class="miga"><a href="../index.html">Inicio</a> · 3.º ESO</p>
+<h1>Unidad 10. Geometría plana</h1>
+</div></header>
+<main>
+<section class="tarjeta" id="a9">
+<h2><span class="numero">9</span>Mediatrices</h2>
+<p>Tienes un triángulo. Traza sus tres mediatrices, llama <code>O</code> al punto donde se cortan y mide la distancia de O a cada vértice. Mueve los vértices. ¿Qué observas? ¿Qué circunferencia puedes dibujar con centro en O?</p>
+
+<div class="applet-ancho"><div class="applet" id="caja_a9">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>m1=Mediatriz(A,B)</code></li><li><code>m2=Mediatriz(B,C)</code></li><li><code>m3=Mediatriz(C,A)</code></li><li><code>O=Interseca(m1,m2)</code></li><li><code>Distancia(O,A)</code></li><li><code>Distancia(O,B)</code></li><li><code>Distancia(O,C)</code></li><li><code>Circunferencia(O,A)</code></li></ol></div>
+</section>
+<section class="tarjeta" id="a19">
+<h2><span class="numero">19</span>Medianas</h2>
+<p>Tienes un triángulo. Traza sus tres medianas y llama <code>G</code> a su punto de corte. Mide la distancia de G a un vértice y al punto medio del lado opuesto. Mueve los vértices. ¿Qué relación observas?</p>
+
+<div class="applet-ancho"><div class="applet" id="caja_a19">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>M=PuntoMedio(B,C)</code></li><li><code>N=PuntoMedio(C,A)</code></li><li><code>P=PuntoMedio(A,B)</code></li><li><code>ma=Segmento(A,M)</code></li><li><code>mb=Segmento(B,N)</code></li><li><code>mc=Segmento(C,P)</code></li><li><code>G=Interseca(ma,mb)</code></li><li><code>Distancia(G,A)</code></li><li><code>Distancia(G,M)</code></li></ol></div>
+</section>
+<section class="tarjeta" id="a37">
+<h2><span class="numero">37</span>Pitágoras con áreas</h2>
+<p>Tienes un triángulo rectángulo. Con la herramienta <em>Polígono regular</em> (o con <code>Polígono(B,A,4)</code>, <code>Polígono(A,C,4)</code> y <code>Polígono(C,B,4)</code>) construye un cuadrado sobre cada lado y mide sus áreas.</p>
+<ol type="a"><li>¿Qué relación hay entre las tres áreas?</li><li>Mueve los vértices sin que deje de ser rectángulo. ¿Se sigue cumpliendo? ¿Y si el triángulo deja de ser rectángulo?</li></ol>
+<div class="applet-ancho"><div class="applet" id="caja_a37">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>c1=Polígono(B,A,4)</code></li><li><code>c2=Polígono(A,C,4)</code></li><li><code>c3=Polígono(C,B,4)</code></li></ol></div>
+</section>
+</main>
+<footer>Applets de GeoGebra del libro de Matemáticas · Colegio Puente</footer>
+<script type="application/json" id="datos-unidad">{"curso": "3ESO", "unidad": "UD10", "titulo": "Geometría plana", "applets": [{"actividad": 9, "titulo": "Mediatrices", "enunciado": "Tienes un triángulo. Traza sus tres mediatrices, llama <code>O<\/code> al punto donde se cortan y mide la distancia de O a cada vértice. Mueve los vértices. ¿Qué observas? ¿Qué circunferencia puedes dibujar con centro en O?", "tareas": [], "inicio": ["A=(0,0)", "B=(6,0)", "C=(2,5)", "t=Polígono(A,B,C)"], "solucion": ["m1=Mediatriz(A,B)", "m2=Mediatriz(B,C)", "m3=Mediatriz(C,A)", "O=Interseca(m1,m2)", "Distancia(O,A)", "Distancia(O,B)", "Distancia(O,C)", "Circunferencia(O,A)"], "vista": [-3, 9, -3, 7], "id": "a9", "ggbInicio": ["A=(0,0)", "B=(6,0)", "C=(2,5)", "t=Polygon(A,B,C)"], "ggbSolucion": ["m1=PerpendicularBisector(A,B)", "m2=PerpendicularBisector(B,C)", "m3=PerpendicularBisector(C,A)", "O=Intersect(m1,m2)", "Distance(O,A)", "Distance(O,B)", "Distance(O,C)", "Circle(O,A)"]}, {"actividad": 19, "titulo": "Medianas", "enunciado": "Tienes un triángulo. Traza sus tres medianas y llama <code>G<\/code> a su punto de corte. Mide la distancia de G a un vértice y al punto medio del lado opuesto. Mueve los vértices. ¿Qué relación observas?", "tareas": [], "inicio": ["A=(0,0)", "B=(6,0)", "C=(2,5)", "t=Polígono(A,B,C)"], "solucion": ["M=PuntoMedio(B,C)", "N=PuntoMedio(C,A)", "P=PuntoMedio(A,B)", "ma=Segmento(A,M)", "mb=Segmento(B,N)", "mc=Segmento(C,P)", "G=Interseca(ma,mb)", "Distancia(G,A)", "Distancia(G,M)"], "vista": [-2, 8, -1, 6], "id": "a19", "ggbInicio": ["A=(0,0)", "B=(6,0)", "C=(2,5)", "t=Polygon(A,B,C)"], "ggbSolucion": ["M=Midpoint(B,C)", "N=Midpoint(C,A)", "P=Midpoint(A,B)", "ma=Segment(A,M)", "mb=Segment(B,N)", "mc=Segment(C,P)", "G=Intersect(ma,mb)", "Distance(G,A)", "Distance(G,M)"]}, {"actividad": 37, "titulo": "Pitágoras con áreas", "enunciado": "Tienes un triángulo rectángulo. Con la herramienta <em>Polígono regular<\/em> (o con <code>Polígono(B,A,4)<\/code>, <code>Polígono(A,C,4)<\/code> y <code>Polígono(C,B,4)<\/code>) construye un cuadrado sobre cada lado y mide sus áreas.", "tareas": ["¿Qué relación hay entre las tres áreas?", "Mueve los vértices sin que deje de ser rectángulo. ¿Se sigue cumpliendo? ¿Y si el triángulo deja de ser rectángulo?"], "inicio": ["A=(0,0)", "B=(4,0)", "C=(0,3)", "t=Polígono(A,B,C)"], "solucion": ["c1=Polígono(B,A,4)", "c2=Polígono(A,C,4)", "c3=Polígono(C,B,4)"], "vista": [-6, 10, -5, 9], "id": "a37", "ggbInicio": ["A=(0,0)", "B=(4,0)", "C=(0,3)", "t=Polygon(A,B,C)"], "ggbSolucion": ["c1=Polygon(B,A,4)", "c2=Polygon(A,C,4)", "c3=Polygon(C,B,4)"]}]}</script>
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<script src="../assets/applet.js"></script>
+</body>
+</html>

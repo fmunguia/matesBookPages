@@ -1,0 +1,27 @@
+{
+  "curso": "4ESO-A",
+  "unidad": "UD07",
+  "titulo": "Ecuaciones",
+  "applets": [
+    {
+      "actividad": 90,
+      "titulo": "Inecuación de segundo grado",
+      "enunciado": "Tienes la parábola <code>y=x^2-x-6</code>. Observa en qué valores de x la gráfica queda por debajo del eje X y escribe la solución de la inecuación x² − x − 6 &lt; 0. Compruébalo resolviéndola a mano.",
+      "tareas": [],
+      "inicio": [
+        "f(x)=x^2-x-6"
+      ],
+      "solucion": [
+        "Raíz(f)",
+        "x^2-x-6<0",
+        "Resuelve(x^2-x-6<0)"
+      ],
+      "vista": [
+        -5,
+        6,
+        -8,
+        6
+      ]
+    }
+  ]
+}

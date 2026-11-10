@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unidad 12. Figuras planas, perímetros y áreas</title>
+<link rel="stylesheet" href="../assets/estilo.css">
+</head>
+<body>
+<header><div class="contenido">
+<p class="miga"><a href="../index.html">Inicio</a> · 1.º ESO</p>
+<h1>Unidad 12. Figuras planas, perímetros y áreas</h1>
+</div></header>
+<main>
+<section class="tarjeta" id="a13">
+<h2><span class="numero">13</span>Ángulo y bisectriz</h2>
+<p>Tienes los puntos <code>A=(0,0)</code>, <code>B=(5,0)</code> y <code>C=(3,4)</code>. Escribe <code>Ángulo(B,A,C)</code> y <code>Bisectriz(B,A,C)</code>.</p>
+<ol type="a"><li>¿Cuánto mide el ángulo BAC? ¿De qué tipo es?</li><li>Mide con <code>Ángulo</code> una de las dos partes en que lo divide la bisectriz.</li></ol>
+<div class="applet-ancho"><div class="applet" id="caja_a13">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>α=Ángulo(B,A,C)</code></li><li><code>b=Bisectriz(B,A,C)</code></li><li><code>D=Interseca(b,Segmento(B,C))</code></li><li><code>β=Ángulo(B,A,D)</code></li></ol></div>
+</section>
+<section class="tarjeta" id="a36">
+<h2><span class="numero">36</span>Comprueba Pitágoras</h2>
+<p>Tienes el triángulo de vértices <code>A=(0,0)</code>, <code>B=(4,0)</code> y <code>C=(0,3)</code>. Dibuja un cuadrado sobre cada lado con <code>Polígono(B,A,4)</code>, <code>Polígono(A,C,4)</code> y <code>Polígono(C,B,4)</code>.</p>
+<ol type="a"><li>¿Cuánto mide el área de cada cuadrado? ¿Qué relación hay entre ellas?</li><li>Mueve el punto C a (0, 5). ¿Se sigue cumpliendo? ¿Cuánto mide ahora la hipotenusa?</li></ol>
+<div class="applet-ancho"><div class="applet" id="caja_a36">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>c1=Polígono(B,A,4)</code></li><li><code>c2=Polígono(A,C,4)</code></li><li><code>c3=Polígono(C,B,4)</code></li></ol></div>
+</section>
+<section class="tarjeta" id="a65">
+<h2><span class="numero">65</span>Hexágono regular</h2>
+<p>Dibuja un hexágono regular de 4 cm de lado con la herramienta <em>Polígono regular</em> o escribiendo <code>Polígono((0,0),(4,0),6)</code>. Usa las herramientas de medida (o las órdenes <code>Ángulo</code>, <code>Perímetro</code> y <code>Área</code>) para hallar uno de sus ángulos interiores, su perímetro y su área.</p>
+
+<div class="applet-ancho"><div class="applet" id="caja_a65">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>hex=Polígono((0,0),(4,0),6)</code></li><li><code>Ángulo(hex)</code></li><li><code>Perímetro(hex)</code></li><li><code>Área(hex)</code></li></ol></div>
+</section>
+<section class="tarjeta" id="a98">
+<h2><span class="numero">98</span>Gira y refleja</h2>
+<p>Tienes el triángulo <code>p=Polígono((1,1),(4,1),(1,3))</code>. Escribe <code>Rota(p, 90°, (0,0))</code> y <code>Refleja(p, Recta((0,0),(0,1)))</code>.</p>
+<ol type="a"><li>Anota las coordenadas de los vértices de cada imagen.</li><li>¿Qué movimiento hace cada orden? ¿Cambia el área?</li></ol>
+<div class="applet-ancho"><div class="applet" id="caja_a98">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>Rota(p, 90°, (0,0))</code></li><li><code>Refleja(p, Recta((0,0),(0,1)))</code></li></ol></div>
+</section>
+</main>
+<footer>Applets de GeoGebra del libro de Matemáticas · Colegio Puente</footer>
+<script type="application/json" id="datos-unidad">{"curso": "1ESO", "unidad": "UD12", "titulo": "Figuras planas, perímetros y áreas", "applets": [{"actividad": 13, "titulo": "Ángulo y bisectriz", "enunciado": "Tienes los puntos <code>A=(0,0)<\/code>, <code>B=(5,0)<\/code> y <code>C=(3,4)<\/code>. Escribe <code>Ángulo(B,A,C)<\/code> y <code>Bisectriz(B,A,C)<\/code>.", "tareas": ["¿Cuánto mide el ángulo BAC? ¿De qué tipo es?", "Mide con <code>Ángulo<\/code> una de las dos partes en que lo divide la bisectriz."], "inicio": ["A=(0,0)", "B=(5,0)", "C=(3,4)", "s=Segmento(A,B)", "s2=Segmento(A,C)"], "solucion": ["α=Ángulo(B,A,C)", "b=Bisectriz(B,A,C)", "D=Interseca(b,Segmento(B,C))", "β=Ángulo(B,A,D)"], "vista": [-1, 6.5, -1, 5], "id": "a13", "ggbInicio": ["A=(0,0)", "B=(5,0)", "C=(3,4)", "s=Segment(A,B)", "s2=Segment(A,C)"], "ggbSolucion": ["α=Angle(B,A,C)", "b=AngleBisector(B,A,C)", "D=Intersect(b,Segment(B,C))", "β=Angle(B,A,D)"]}, {"actividad": 36, "titulo": "Comprueba Pitágoras", "enunciado": "Tienes el triángulo de vértices <code>A=(0,0)<\/code>, <code>B=(4,0)<\/code> y <code>C=(0,3)<\/code>. Dibuja un cuadrado sobre cada lado con <code>Polígono(B,A,4)<\/code>, <code>Polígono(A,C,4)<\/code> y <code>Polígono(C,B,4)<\/code>.", "tareas": ["¿Cuánto mide el área de cada cuadrado? ¿Qué relación hay entre ellas?", "Mueve el punto C a (0, 5). ¿Se sigue cumpliendo? ¿Cuánto mide ahora la hipotenusa?"], "inicio": ["A=(0,0)", "B=(4,0)", "C=Punto(EjeY)", "SetCoords(C,0,3)", "t=Polígono(A,B,C)"], "solucion": ["c1=Polígono(B,A,4)", "c2=Polígono(A,C,4)", "c3=Polígono(C,B,4)"], "vista": [-6, 10, -5, 9], "fijos": ["A", "B"], "id": "a36", "ggbInicio": ["A=(0,0)", "B=(4,0)", "C=Point(yAxis)", "SetCoords(C,0,3)", "t=Polygon(A,B,C)"], "ggbSolucion": ["c1=Polygon(B,A,4)", "c2=Polygon(A,C,4)", "c3=Polygon(C,B,4)"]}, {"actividad": 65, "titulo": "Hexágono regular", "enunciado": "Dibuja un hexágono regular de 4 cm de lado con la herramienta <em>Polígono regular<\/em> o escribiendo <code>Polígono((0,0),(4,0),6)<\/code>. Usa las herramientas de medida (o las órdenes <code>Ángulo<\/code>, <code>Perímetro<\/code> y <code>Área<\/code>) para hallar uno de sus ángulos interiores, su perímetro y su área.", "tareas": [], "inicio": [], "solucion": ["hex=Polígono((0,0),(4,0),6)", "Ángulo(hex)", "Perímetro(hex)", "Área(hex)"], "vista": [-4, 9, -1, 8], "id": "a65", "ggbInicio": [], "ggbSolucion": ["hex=Polygon((0,0),(4,0),6)", "Angle(hex)", "Perimeter(hex)", "Area(hex)"]}, {"actividad": 98, "titulo": "Gira y refleja", "enunciado": "Tienes el triángulo <code>p=Polígono((1,1),(4,1),(1,3))<\/code>. Escribe <code>Rota(p, 90°, (0,0))<\/code> y <code>Refleja(p, Recta((0,0),(0,1)))<\/code>.", "tareas": ["Anota las coordenadas de los vértices de cada imagen.", "¿Qué movimiento hace cada orden? ¿Cambia el área?"], "inicio": ["p=Polígono((1,1),(4,1),(1,3))"], "solucion": ["Rota(p, 90°, (0,0))", "Refleja(p, Recta((0,0),(0,1)))"], "vista": [-6, 6, -2, 5], "id": "a98", "ggbInicio": ["p=Polygon((1,1),(4,1),(1,3))"], "ggbSolucion": ["Rotate(p, 90°, (0,0))", "Reflect(p, Line((0,0),(0,1)))"]}]}</script>
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<script src="../assets/applet.js"></script>
+</body>
+</html>

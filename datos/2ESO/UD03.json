@@ -1,0 +1,32 @@
+{
+  "curso": "2ESO",
+  "unidad": "UD03",
+  "titulo": "Potencias y raíces",
+  "applets": [
+    {
+      "actividad": 92,
+      "titulo": "Buscar una raíz",
+      "enunciado": "Tienes la parábola <code>f(x)=x^2</code> y la recta <code>y=20</code>. Escribe <code>Interseca(f,y=20)</code>.",
+      "tareas": [
+        "¿Qué puntos aparecen? ¿Qué relación tienen con √20?",
+        "Cambia 20 por 49. ¿Qué obtienes?"
+      ],
+      "inicio": [
+        "f(x)=x^2",
+        "y=20"
+      ],
+      "solucion": [
+        "Interseca(f,y=20)",
+        "y=49",
+        "Interseca(f,y=49)"
+      ],
+      "vista": [
+        -10,
+        10,
+        -5,
+        55
+      ],
+      "proporcional": false
+    }
+  ]
+}

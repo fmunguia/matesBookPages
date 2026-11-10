@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unidad 9. Semejanza y movimientos en el plano</title>
+<link rel="stylesheet" href="../assets/estilo.css">
+</head>
+<body>
+<header><div class="contenido">
+<p class="miga"><a href="../index.html">Inicio</a> · 2.º ESO</p>
+<h1>Unidad 9. Semejanza y movimientos en el plano</h1>
+</div></header>
+<main>
+<section class="tarjeta" id="a32">
+<h2><span class="numero">32</span>Ampliar un triángulo</h2>
+<p>Tienes el triángulo <code>t1=Polígono((1,1),(3,1),(2,3))</code>. Escribe <code>Homotecia(t1,2,(0,0))</code>.</p>
+<ol type="a"><li>¿Qué coordenadas tienen los vértices del nuevo triángulo?</li><li>Compara las áreas de los dos triángulos que muestra GeoGebra. ¿Cuántas veces es mayor la del nuevo?</li><li>Cambia el 2 por 0,5. ¿Qué ocurre?</li></ol>
+<div class="applet-ancho"><div class="applet" id="caja_a32">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>t2=Homotecia(t1,2,(0,0))</code></li><li><code>t3=Homotecia(t1,0.5,(0,0))</code></li></ol></div>
+</section>
+<section class="tarjeta" id="a68">
+<h2><span class="numero">68</span>Vectores</h2>
+<p>Escribe <code>u=Vector((1,2),(5,-1))</code> y después <code>Longitud(u)</code>.</p>
+<ol type="a"><li>¿Qué coordenadas tiene el vector que aparece en la vista algebraica?</li><li>¿Qué módulo muestra GeoGebra? Compruébalo con lápiz y papel.</li></ol>
+<div class="applet-ancho"><div class="applet" id="caja_a68">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>u=Vector((1,2),(5,-1))</code></li><li><code>Longitud(u)</code></li></ol></div>
+</section>
+<section class="tarjeta" id="a79">
+<h2><span class="numero">79</span>Movimientos</h2>
+<p>Tienes un triángulo, la recta <code>e</code> y el punto <code>O</code>. Aplica al triángulo una simetría axial respecto a <code>e</code> y un giro de 90º alrededor de <code>O</code>. Mide los lados y los ángulos de las tres figuras.</p>
+<ol type="a"><li>¿Qué se conserva?</li><li>¿Qué cambia en la figura simétrica que no cambia en la girada?</li></ol>
+<div class="applet-ancho"><div class="applet" id="caja_a79">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>t2=Refleja(t,e)</code></li><li><code>t3=Rota(t,90°,O)</code></li></ol></div>
+</section>
+</main>
+<footer>Applets de GeoGebra del libro de Matemáticas · Colegio Puente</footer>
+<script type="application/json" id="datos-unidad">{"curso": "2ESO", "unidad": "UD09", "titulo": "Semejanza y movimientos en el plano", "applets": [{"actividad": 32, "titulo": "Ampliar un triángulo", "enunciado": "Tienes el triángulo <code>t1=Polígono((1,1),(3,1),(2,3))<\/code>. Escribe <code>Homotecia(t1,2,(0,0))<\/code>.", "tareas": ["¿Qué coordenadas tienen los vértices del nuevo triángulo?", "Compara las áreas de los dos triángulos que muestra GeoGebra. ¿Cuántas veces es mayor la del nuevo?", "Cambia el 2 por 0,5. ¿Qué ocurre?"], "inicio": ["t1=Polígono((1,1),(3,1),(2,3))"], "solucion": ["t2=Homotecia(t1,2,(0,0))", "t3=Homotecia(t1,0.5,(0,0))"], "vista": [-1, 8, -1, 7], "id": "a32", "ggbInicio": ["t1=Polygon((1,1),(3,1),(2,3))"], "ggbSolucion": ["t2=Dilate(t1,2,(0,0))", "t3=Dilate(t1,0.5,(0,0))"]}, {"actividad": 68, "titulo": "Vectores", "enunciado": "Escribe <code>u=Vector((1,2),(5,-1))<\/code> y después <code>Longitud(u)<\/code>.", "tareas": ["¿Qué coordenadas tiene el vector que aparece en la vista algebraica?", "¿Qué módulo muestra GeoGebra? Compruébalo con lápiz y papel."], "inicio": [], "solucion": ["u=Vector((1,2),(5,-1))", "Longitud(u)"], "vista": [-1, 7, -3, 4], "id": "a68", "ggbInicio": [], "ggbSolucion": ["u=Vector((1,2),(5,-1))", "Length(u)"]}, {"actividad": 79, "titulo": "Movimientos", "enunciado": "Tienes un triángulo, la recta <code>e<\/code> y el punto <code>O<\/code>. Aplica al triángulo una simetría axial respecto a <code>e<\/code> y un giro de 90º alrededor de <code>O<\/code>. Mide los lados y los ángulos de las tres figuras.", "tareas": ["¿Qué se conserva?", "¿Qué cambia en la figura simétrica que no cambia en la girada?"], "inicio": ["A=(1,1)", "B=(4,1)", "C=(2,3)", "t=Polígono(A,B,C)", "e=Recta((-1,0),(-1,1))", "O=(0,-1)"], "solucion": ["t2=Refleja(t,e)", "t3=Rota(t,90°,O)"], "vista": [-8, 6, -5, 5], "id": "a79", "ggbInicio": ["A=(1,1)", "B=(4,1)", "C=(2,3)", "t=Polygon(A,B,C)", "e=Line((-1,0),(-1,1))", "O=(0,-1)"], "ggbSolucion": ["t2=Reflect(t,e)", "t3=Rotate(t,90°,O)"]}]}</script>
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<script src="../assets/applet.js"></script>
+</body>
+</html>

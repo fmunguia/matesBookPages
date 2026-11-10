@@ -1,0 +1,36 @@
+{
+  "curso": "3ESO",
+  "unidad": "UD13",
+  "titulo": "Estadística",
+  "applets": [
+    {
+      "actividad": 86,
+      "titulo": "Parámetros y diagrama de caja",
+      "enunciado": "Tienes los datos 12, 15, 18, 18, 20, 22, 25, 25, 25, 30, 35, 60 en la lista <code>datos</code>. Calcula sus parámetros con <code>Media</code>, <code>Mediana</code> y <code>DE</code> (desviación típica) y dibuja el diagrama de caja con <code>DiagramaCaja(1, 0.5, datos)</code>. En la aplicación de GeoGebra también puedes usar la herramienta <em>Análisis de una variable</em>.",
+      "tareas": [
+        "Anota la media, la mediana y la desviación típica, y observa el diagrama de caja. ¿Hay algún dato muy alejado de los demás?",
+        "Quita el 60. ¿Qué parámetro cambia más, la media o la mediana?"
+      ],
+      "inicio": [
+        "datos={12,15,18,18,20,22,25,25,25,30,35,60}"
+      ],
+      "solucion": [
+        "Media(datos)",
+        "Mediana(datos)",
+        "DE(datos)",
+        "DiagramaCaja(1, 0.5, datos)",
+        "datos2={12,15,18,18,20,22,25,25,25,30,35}",
+        "Media(datos2)",
+        "Mediana(datos2)"
+      ],
+      "vista": [
+        0,
+        65,
+        -1,
+        3
+      ],
+      "cuadricula": false,
+      "proporcional": false
+    }
+  ]
+}

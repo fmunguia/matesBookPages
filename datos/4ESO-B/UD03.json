@@ -1,0 +1,26 @@
+{
+  "curso": "4ESO-B",
+  "unidad": "UD03",
+  "titulo": "Polinomios",
+  "applets": [
+    {
+      "actividad": 78,
+      "titulo": "Ruffini y gráfica",
+      "enunciado": "Factoriza x³ − 2x² − 5x + 6 con la regla de Ruffini. Comprueba el resultado con el comando <code>Factoriza</code> y representa <code>y=x^3-2x^2-5x+6</code>. ¿Qué relación hay entre las raíces y los puntos de corte con el eje X?",
+      "tareas": [],
+      "inicio": [],
+      "solucion": [
+        "Factoriza(x^3-2x^2-5x+6)",
+        "f(x)=x^3-2x^2-5x+6",
+        "Raíz(f)"
+      ],
+      "vista": [
+        -4,
+        5,
+        -10,
+        12
+      ],
+      "proporcional": false
+    }
+  ]
+}

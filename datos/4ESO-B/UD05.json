@@ -1,0 +1,26 @@
+{
+  "curso": "4ESO-B",
+  "unidad": "UD05",
+  "titulo": "Sistemas de ecuaciones",
+  "applets": [
+    {
+      "actividad": 39,
+      "titulo": "Circunferencia y recta",
+      "enunciado": "Tienes <code>x^2+y^2=25</code> y <code>x+y=7</code>. ¿Qué figuras representan? Usa la herramienta <code>Interseca</code> para obtener los puntos de corte y compara con la actividad anterior del libro.",
+      "tareas": [],
+      "inicio": [
+        "c: x^2+y^2=25",
+        "r: x+y=7"
+      ],
+      "solucion": [
+        "Interseca(c,r)"
+      ],
+      "vista": [
+        -8,
+        9,
+        -6,
+        8
+      ]
+    }
+  ]
+}

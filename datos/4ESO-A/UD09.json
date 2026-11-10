@@ -1,0 +1,27 @@
+{
+  "curso": "4ESO-A",
+  "unidad": "UD09",
+  "titulo": "Funciones",
+  "applets": [
+    {
+      "actividad": 51,
+      "titulo": "Crecimiento de una población",
+      "enunciado": "Una ciudad tiene 1 000 habitantes y su población crece un 5 % cada año, así que a los x años tiene <code>f(x)=1000*1.05^x</code> habitantes. Tienes la función y la recta <code>y=2000</code>. Usa <code>Interseca</code>. ¿Cuántos años tarda en duplicarse la población?",
+      "tareas": [],
+      "inicio": [
+        "f(x)=1000*1.05^x",
+        "r: y=2000"
+      ],
+      "solucion": [
+        "Interseca(f,r)"
+      ],
+      "vista": [
+        -2,
+        25,
+        -300,
+        3500
+      ],
+      "proporcional": false
+    }
+  ]
+}

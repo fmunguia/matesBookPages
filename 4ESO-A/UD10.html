@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unidad 10. Estadística</title>
+<link rel="stylesheet" href="../assets/estilo.css">
+</head>
+<body>
+<header><div class="contenido">
+<p class="miga"><a href="../index.html">Inicio</a> · 4.º ESO · Matemáticas A</p>
+<h1>Unidad 10. Estadística</h1>
+</div></header>
+<main>
+<section class="tarjeta" id="a100">
+<h2><span class="numero">100</span>Viento y olas</h2>
+<p>Tienes los datos de viento y olas del club de surf de Liencres en la lista <code>puntos</code> (velocidad del viento X en km/h, altura de las olas Y en m). Obtén la recta de regresión con <code>AjusteLineal(puntos)</code> y el coeficiente de correlación con <code>CoeficienteCorrelación(puntos)</code>. ¿Qué altura de ola cabe esperar un día con viento de 50 km/h? ¿Es fiable la estimación? En la aplicación de GeoGebra también puedes usar la hoja de cálculo y la herramienta <em>Análisis de regresión de dos variables</em>.</p>
+
+<div class="applet-ancho"><div class="applet" id="caja_a100">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>r=AjusteLineal(puntos)</code></li><li><code>CoeficienteCorrelación(puntos)</code></li><li><code>Interseca(r,x=50)</code></li></ol></div>
+</section>
+</main>
+<footer>Applets de GeoGebra del libro de Matemáticas · Colegio Puente</footer>
+<script type="application/json" id="datos-unidad">{"curso": "4ESO-A", "unidad": "UD10", "titulo": "Estadística", "applets": [{"actividad": 100, "titulo": "Viento y olas", "enunciado": "Tienes los datos de viento y olas del club de surf de Liencres en la lista <code>puntos<\/code> (velocidad del viento X en km/h, altura de las olas Y en m). Obtén la recta de regresión con <code>AjusteLineal(puntos)<\/code> y el coeficiente de correlación con <code>CoeficienteCorrelación(puntos)<\/code>. ¿Qué altura de ola cabe esperar un día con viento de 50 km/h? ¿Es fiable la estimación? En la aplicación de GeoGebra también puedes usar la hoja de cálculo y la herramienta <em>Análisis de regresión de dos variables<\/em>.", "tareas": [], "inicio": ["puntos={(10,0.8),(15,1),(20,1.2),(25,1.5),(30,1.5),(35,1.8),(40,2),(45,2.5)}"], "solucion": ["r=AjusteLineal(puntos)", "CoeficienteCorrelación(puntos)", "Interseca(r,x=50)"], "vista": [0, 55, -0.3, 3], "proporcional": false, "visibles": ["puntos"], "id": "a100", "ggbInicio": ["puntos={(10,0.8),(15,1),(20,1.2),(25,1.5),(30,1.5),(35,1.8),(40,2),(45,2.5)}"], "ggbSolucion": ["r=FitLine(puntos)", "CorrelationCoefficient(puntos)", "Intersect(r,x=50)"]}]}</script>
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<script src="../assets/applet.js"></script>
+</body>
+</html>

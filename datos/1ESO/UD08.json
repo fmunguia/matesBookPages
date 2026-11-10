@@ -1,0 +1,22 @@
+{
+  "curso": "1ESO",
+  "unidad": "UD08",
+  "titulo": "Ecuaciones",
+  "applets": [
+    {
+      "actividad": 51,
+      "titulo": "Comprueba tus soluciones",
+      "enunciado": "GeoGebra resuelve ecuaciones con <code>Resuelve</code>, por ejemplo <code>Resuelve(3(x-2)=x+8)</code>. Resuelve a mano estas ecuaciones y comprueba el resultado escribiéndolas en la barra de entrada.",
+      "tareas": [
+        "3(x − 2) = x + 8",
+        "x/2 + x/3 = 10"
+      ],
+      "inicio": [],
+      "solucion": [
+        "Resuelve(3(x-2)=x+8)",
+        "Resuelve(x/2+x/3=10)"
+      ],
+      "perspectiva": "A"
+    }
+  ]
+}

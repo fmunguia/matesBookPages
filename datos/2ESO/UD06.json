@@ -1,0 +1,26 @@
+{
+  "curso": "2ESO",
+  "unidad": "UD06",
+  "titulo": "Ecuaciones de primer y segundo grado",
+  "applets": [
+    {
+      "actividad": 54,
+      "titulo": "Soluciones y gráficas",
+      "enunciado": "Tienes la parábola <code>y=x^2-2x-3</code>. ¿En qué puntos corta la gráfica al eje X? Resuelve la ecuación x² − 2x − 3 = 0 y compara. ¿Qué relación hay?",
+      "tareas": [],
+      "inicio": [
+        "f(x)=x^2-2x-3"
+      ],
+      "solucion": [
+        "Raíz(f)",
+        "Resuelve(x^2-2x-3=0)"
+      ],
+      "vista": [
+        -4,
+        6,
+        -5,
+        6
+      ]
+    }
+  ]
+}

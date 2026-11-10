@@ -1,0 +1,38 @@
+{
+  "curso": "4ESO-B",
+  "unidad": "UD09",
+  "titulo": "Trigonometría",
+  "applets": [
+    {
+      "actividad": null,
+      "titulo": "La circunferencia goniométrica",
+      "enunciado": "Taller digital. Tienes un deslizador <code>a</code> de tipo ángulo entre 0º y 360º, la circunferencia <code>c: x^2+y^2=1</code>, el punto <code>P=(cos(a), sin(a))</code> y los segmentos <code>Segmento((0,0), (x(P),0))</code> y <code>Segmento((x(P),0), P)</code>.",
+      "tareas": [
+        "Mueve el deslizador y anota en qué cuadrantes es negativo cada segmento.",
+        "Añade <code>Q=(a, sin(a))</code> con el rastro activado: ¿qué curva aparece?",
+        "Busca dos ángulos distintos entre 0º y 360º cuyo seno valga 0,5 y dos cuyo coseno valga −0,5. Explica la relación entre cada pareja."
+      ],
+      "inicio": [
+        "a=Deslizador(0°,360°,1°)",
+        "c: x^2+y^2=1",
+        "P=(cos(a), sin(a))",
+        "Segmento((0,0), (x(P),0))",
+        "Segmento((x(P),0), P)"
+      ],
+      "solucion": [
+        "Q=(a, sin(a))"
+      ],
+      "vista": [
+        -1.8,
+        7,
+        -1.6,
+        1.6
+      ],
+      "rastro": [
+        "Q"
+      ],
+      "cuadricula": false,
+      "id": "taller"
+    }
+  ]
+}

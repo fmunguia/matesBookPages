@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unidad 13. Probabilidad</title>
+<link rel="stylesheet" href="../assets/estilo.css">
+</head>
+<body>
+<header><div class="contenido">
+<p class="miga"><a href="../index.html">Inicio</a> · 2.º ESO</p>
+<h1>Unidad 13. Probabilidad</h1>
+</div></header>
+<main>
+<section class="tarjeta" id="a33">
+<h2><span class="numero">33</span>Cien monedas</h2>
+<p>Escribe <code>lista=Secuencia(AleatorioEntre(0,1),i,1,100)</code> y después <code>Suma(lista)/100</code>. Cada 1 es una cara.</p>
+<ol type="a"><li>¿Qué representa el número que obtienes?</li><li>Pulsa <strong>Reiniciar</strong> y vuelve a escribir las órdenes para repetir el experimento varias veces. ¿Entre qué valores se mueve?</li><li>Cambia 100 por 10 000. ¿Qué observas?</li></ol>
+<div class="applet-ancho"><div class="applet" id="caja_a33">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>lista=Secuencia(AleatorioEntre(0,1),i,1,100)</code></li><li><code>frec=Suma(lista)/100</code></li><li><code>lista2=Secuencia(AleatorioEntre(0,1),i,1,10000)</code></li><li><code>frec2=Suma(lista2)/10000</code></li></ol></div>
+</section>
+</main>
+<footer>Applets de GeoGebra del libro de Matemáticas · Colegio Puente</footer>
+<script type="application/json" id="datos-unidad">{"curso": "2ESO", "unidad": "UD13", "titulo": "Probabilidad", "applets": [{"actividad": 33, "titulo": "Cien monedas", "enunciado": "Escribe <code>lista=Secuencia(AleatorioEntre(0,1),i,1,100)<\/code> y después <code>Suma(lista)/100<\/code>. Cada 1 es una cara.", "tareas": ["¿Qué representa el número que obtienes?", "Pulsa <strong>Reiniciar<\/strong> y vuelve a escribir las órdenes para repetir el experimento varias veces. ¿Entre qué valores se mueve?", "Cambia 100 por 10 000. ¿Qué observas?"], "inicio": [], "solucion": ["lista=Secuencia(AleatorioEntre(0,1),i,1,100)", "frec=Suma(lista)/100", "lista2=Secuencia(AleatorioEntre(0,1),i,1,10000)", "frec2=Suma(lista2)/10000"], "perspectiva": "A", "id": "a33", "ggbInicio": [], "ggbSolucion": ["lista=Sequence(RandomBetween(0,1),i,1,100)", "frec=Sum(lista)/100", "lista2=Sequence(RandomBetween(0,1),i,1,10000)", "frec2=Sum(lista2)/10000"]}]}</script>
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<script src="../assets/applet.js"></script>
+</body>
+</html>

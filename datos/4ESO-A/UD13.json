@@ -1,0 +1,24 @@
+{
+  "curso": "4ESO-A",
+  "unidad": "UD13",
+  "titulo": "Geometría en el espacio",
+  "applets": [
+    {
+      "actividad": 31,
+      "titulo": "Cono y cilindro",
+      "enunciado": "En la vista 3D escribe <code>Cono((0,0,0),(0,0,4),3)</code> y <code>Cilindro((6,0,0),(6,0,4),3)</code>. Usa el comando <code>Volumen</code> con cada uno.",
+      "tareas": [
+        "Anota los dos volúmenes. ¿Qué relación hay entre ellos?",
+        "Comprueba los resultados con las fórmulas."
+      ],
+      "inicio": [],
+      "solucion": [
+        "co=Cono((0,0,0),(0,0,4),3)",
+        "ci=Cilindro((6,0,0),(6,0,4),3)",
+        "Volumen(co)",
+        "Volumen(ci)"
+      ],
+      "perspectiva": "AT"
+    }
+  ]
+}

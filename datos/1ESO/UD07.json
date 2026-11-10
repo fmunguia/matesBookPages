@@ -1,0 +1,70 @@
+{
+  "curso": "1ESO",
+  "unidad": "UD07",
+  "titulo": "Lenguaje algebraico",
+  "applets": [
+    {
+      "actividad": 10,
+      "titulo": "Generar una sucesión",
+      "enunciado": "Escribe en la barra de entrada <code>Secuencia(3n-2,n,1,10)</code>.",
+      "tareas": [
+        "¿Qué lista aparece?",
+        "Cambia la expresión por <code>n^2+1</code>. Escribe los cinco primeros términos.",
+        "Escribe la expresión que genera 10, 20, 30, … y compruébala."
+      ],
+      "inicio": [],
+      "solucion": [
+        "Secuencia(3n-2,n,1,10)",
+        "Secuencia(n^2+1,n,1,10)",
+        "Secuencia(10n,n,1,10)"
+      ],
+      "perspectiva": "A"
+    },
+    {
+      "actividad": 19,
+      "titulo": "Dibujar una secuencia",
+      "enunciado": "Escribe en la barra de entrada <code>Secuencia((n, 2n+1), n, 1, 8)</code>.",
+      "tareas": [
+        "¿Qué puntos aparecen?",
+        "¿Están alineados?",
+        "Cambia <code>2n+1</code> por <code>n^2</code>. ¿Siguen alineados los puntos?"
+      ],
+      "inicio": [],
+      "solucion": [
+        "Secuencia((n, 2n+1), n, 1, 8)",
+        "Secuencia((n, n^2), n, 1, 8)"
+      ],
+      "vista": [
+        -1,
+        10,
+        -4,
+        66
+      ],
+      "proporcional": false
+    },
+    {
+      "actividad": 50,
+      "titulo": "Deslizador",
+      "enunciado": "Tienes un deslizador <code>a</code> que va de −5 a 5 de uno en uno y la expresión <code>valor=3a-4</code>.",
+      "tareas": [
+        "¿Cuánto vale la expresión para a = 2?",
+        "¿Y para a = −1?",
+        "Mueve el deslizador. ¿Para qué valor de a vale 11?"
+      ],
+      "inicio": [
+        "a=Deslizador(-5,5,1)",
+        "a=0",
+        "valor=3a-4"
+      ],
+      "solucion": [
+        "a=5"
+      ],
+      "vista": [
+        -6,
+        6,
+        -4,
+        4
+      ]
+    }
+  ]
+}

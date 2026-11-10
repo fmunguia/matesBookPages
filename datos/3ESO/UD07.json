@@ -1,0 +1,30 @@
+{
+  "curso": "3ESO",
+  "unidad": "UD07",
+  "titulo": "Sistemas de ecuaciones",
+  "applets": [
+    {
+      "actividad": 60,
+      "titulo": "Punto de corte",
+      "enunciado": "Tienes las rectas <code>r: 2x+y=7</code> y <code>s: x-3y=0</code>. Usa el comando <code>Interseca</code> para hallar el punto de corte.",
+      "tareas": [
+        "¿Cuál es la solución del sistema? Compruébala resolviéndolo a mano.",
+        "Cambia la segunda ecuación por 4x + 2y = 10. ¿Qué ocurre? ¿Qué tipo de sistema es?"
+      ],
+      "inicio": [
+        "r: 2x+y=7",
+        "s: x-3y=0"
+      ],
+      "solucion": [
+        "Interseca(r,s)",
+        "t: 4x+2y=10"
+      ],
+      "vista": [
+        -2,
+        8,
+        -3,
+        8
+      ]
+    }
+  ]
+}

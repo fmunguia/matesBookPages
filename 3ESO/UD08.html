@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unidad 8. Funciones y gráficas</title>
+<link rel="stylesheet" href="../assets/estilo.css">
+</head>
+<body>
+<header><div class="contenido">
+<p class="miga"><a href="../index.html">Inicio</a> · 3.º ESO</p>
+<h1>Unidad 8. Funciones y gráficas</h1>
+</div></header>
+<main>
+<section class="tarjeta" id="a50">
+<h2><span class="numero">50</span>Máximos, mínimos y cortes</h2>
+<p>Tienes la función <code>f(x)=x^3-3x</code>. Usa los comandos <code>Extremo</code> y <code>Raíz</code> para hallar sus máximos y mínimos relativos y sus cortes con el eje X. Indica los intervalos de crecimiento y decrecimiento.</p>
+
+<div class="applet-ancho"><div class="applet" id="caja_a50">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>Extremo(f)</code></li><li><code>Raíz(f)</code></li></ol></div>
+</section>
+<section class="tarjeta" id="a51">
+<h2><span class="numero">51</span>Una función acotada</h2>
+<p>Tienes la función <code>f(x)=4/(x^2+1)</code>.</p>
+<ol type="a"><li>¿Tiene máximos o mínimos? ¿Corta al eje X?</li><li>¿Cuál es su recorrido?</li><li>¿Qué le ocurre a la función cuando x se hace muy grande?</li></ol>
+<div class="applet-ancho"><div class="applet" id="caja_a51">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>Extremo(f,-5,5)</code></li></ol></div>
+</section>
+<section class="tarjeta" id="a72">
+<h2><span class="numero">72</span>Un deslizador en la parábola</h2>
+<p>Tienes un deslizador <code>k</code> entre −5 y 5 y la función <code>f(x)=x^2+2x+k</code>. Mueve el deslizador.</p>
+<ol type="a"><li>¿Para qué valores de k corta la gráfica al eje X en dos puntos? ¿En uno? ¿En ninguno?</li><li>¿Dónde corta al eje Y?</li></ol>
+<div class="applet-ancho"><div class="applet" id="caja_a72">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>k=1</code></li><li><code>Raíz(f)</code></li><li><code>P=(0,k)</code></li></ol></div>
+</section>
+</main>
+<footer>Applets de GeoGebra del libro de Matemáticas · Colegio Puente</footer>
+<script type="application/json" id="datos-unidad">{"curso": "3ESO", "unidad": "UD08", "titulo": "Funciones y gráficas", "applets": [{"actividad": 50, "titulo": "Máximos, mínimos y cortes", "enunciado": "Tienes la función <code>f(x)=x^3-3x<\/code>. Usa los comandos <code>Extremo<\/code> y <code>Raíz<\/code> para hallar sus máximos y mínimos relativos y sus cortes con el eje X. Indica los intervalos de crecimiento y decrecimiento.", "tareas": [], "inicio": ["f(x)=x^3-3x"], "solucion": ["Extremo(f)", "Raíz(f)"], "vista": [-4, 4, -3, 3], "id": "a50", "ggbInicio": ["f(x)=x^3-3x"], "ggbSolucion": ["Extremum(f)", "Root(f)"]}, {"actividad": 51, "titulo": "Una función acotada", "enunciado": "Tienes la función <code>f(x)=4/(x^2+1)<\/code>.", "tareas": ["¿Tiene máximos o mínimos? ¿Corta al eje X?", "¿Cuál es su recorrido?", "¿Qué le ocurre a la función cuando x se hace muy grande?"], "inicio": ["f(x)=4/(x^2+1)"], "solucion": ["Extremo(f,-5,5)"], "vista": [-8, 8, -2, 5], "id": "a51", "ggbInicio": ["f(x)=4/(x^2+1)"], "ggbSolucion": ["Extremum(f,-5,5)"]}, {"actividad": 72, "titulo": "Un deslizador en la parábola", "enunciado": "Tienes un deslizador <code>k<\/code> entre −5 y 5 y la función <code>f(x)=x^2+2x+k<\/code>. Mueve el deslizador.", "tareas": ["¿Para qué valores de k corta la gráfica al eje X en dos puntos? ¿En uno? ¿En ninguno?", "¿Dónde corta al eje Y?"], "inicio": ["k=Deslizador(-5,5,0.1)", "k=-3", "f(x)=x^2+2x+k"], "solucion": ["k=1", "Raíz(f)", "P=(0,k)"], "vista": [-6, 4, -4, 8], "id": "a72", "ggbInicio": ["k=Slider(-5,5,0.1)", "k=-3", "f(x)=x^2+2x+k"], "ggbSolucion": ["k=1", "Root(f)", "P=(0,k)"]}]}</script>
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<script src="../assets/applet.js"></script>
+</body>
+</html>

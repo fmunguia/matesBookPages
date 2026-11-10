@@ -1,0 +1,77 @@
+{
+  "curso": "2ESO",
+  "unidad": "UD08",
+  "titulo": "Funciones y gráficas",
+  "applets": [
+    {
+      "actividad": 65,
+      "titulo": "Deslizadores",
+      "enunciado": "Tienes un deslizador <code>m</code> y la recta <code>y=m x+2</code>. Mueve el deslizador.",
+      "tareas": [
+        "¿Qué cambia en la recta al cambiar m?",
+        "¿Qué punto tienen todas en común?",
+        "¿Qué ocurre cuando m = 0?"
+      ],
+      "inicio": [
+        "m=Deslizador(-5,5,0.1)",
+        "m=1",
+        "y=m x+2"
+      ],
+      "solucion": [
+        "P=(0,2)",
+        "m=0"
+      ],
+      "vista": [
+        -6,
+        6,
+        -4,
+        7
+      ]
+    },
+    {
+      "actividad": 66,
+      "titulo": "La recta que pasa por dos puntos",
+      "enunciado": "Escribe <code>Recta((1,3),(4,9))</code> y después <code>Pendiente(f)</code>, donde <code>f</code> es el nombre que GeoGebra le ha dado a la recta.",
+      "tareas": [
+        "¿Qué ecuación tiene la recta? ¿Cuál es su pendiente?",
+        "Comprueba con la ecuación si el punto (−2, −3) está en la recta. Dibújalo para confirmarlo."
+      ],
+      "inicio": [],
+      "solucion": [
+        "f=Recta((1,3),(4,9))",
+        "Pendiente(f)",
+        "P=(-2,-3)"
+      ],
+      "vista": [
+        -5,
+        7,
+        -5,
+        11
+      ]
+    },
+    {
+      "actividad": 97,
+      "titulo": "La parábola y = ax²",
+      "enunciado": "Tienes un deslizador <code>a</code> y la parábola <code>y=a x^2</code>. Mueve el deslizador entre −3 y 3.",
+      "tareas": [
+        "¿Qué pasa cuando a es negativo?",
+        "¿Cómo cambia la parábola al aumentar a?",
+        "¿Qué se obtiene cuando a = 0?"
+      ],
+      "inicio": [
+        "a=Deslizador(-3,3,0.1)",
+        "a=1",
+        "f(x)=a x^2"
+      ],
+      "solucion": [
+        "a=0"
+      ],
+      "vista": [
+        -6,
+        6,
+        -6,
+        6
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "curso": "4ESO-B",
+  "unidad": "UD08",
+  "titulo": "Semejanza y medida",
+  "applets": [
+    {
+      "actividad": null,
+      "titulo": "Homotecias y semejanza",
+      "enunciado": "Taller digital. Tienes un polígono <code>pol1</code>, un punto <code>O</code> fuera de él, un deslizador <code>k</code> entre −3 y 3 y la figura <code>Homotecia(pol1, k, O)</code>.",
+      "tareas": [
+        "Con <code>Perímetro</code> y <code>Área</code> calcula el cociente entre las dos figuras. Compruébalo con k y k².",
+        "¿Qué pasa cuando k es negativo? ¿Y cuando k = 1?"
+      ],
+      "inicio": [
+        "O=(-4,1)",
+        "pol1=Polígono((1,1),(4,1),(3,3),(1,2))",
+        "k=Deslizador(-3,3,0.1)",
+        "k=2",
+        "pol2=Homotecia(pol1,k,O)"
+      ],
+      "solucion": [
+        "Perímetro(pol2)/Perímetro(pol1)",
+        "Área(pol2)/Área(pol1)",
+        "k^2"
+      ],
+      "vista": [
+        -10,
+        12,
+        -6,
+        8
+      ],
+      "id": "taller"
+    },
+    {
+      "actividad": 31,
+      "titulo": "Polígonos inscritos y el número π",
+      "enunciado": "Dibuja una circunferencia de radio 1 e inscribe en ella polígonos regulares de 6, 12, 24 y 96 lados. Mide sus áreas. ¿A qué número se acercan? ¿Por qué?",
+      "tareas": [],
+      "inicio": [],
+      "solucion": [
+        "c=Circunferencia((0,0),1)",
+        "p6=Polígono((1,0),(cos(60°),sin(60°)),6)",
+        "p12=Polígono((1,0),(cos(30°),sin(30°)),12)",
+        "p24=Polígono((1,0),(cos(15°),sin(15°)),24)",
+        "p96=Polígono((1,0),(cos(3.75°),sin(3.75°)),96)"
+      ],
+      "vista": [
+        -1.8,
+        1.8,
+        -1.3,
+        1.3
+      ]
+    }
+  ]
+}

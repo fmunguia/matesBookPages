@@ -1,0 +1,25 @@
+{
+  "curso": "3ESO",
+  "unidad": "UD06",
+  "titulo": "Ecuaciones",
+  "applets": [
+    {
+      "actividad": 88,
+      "titulo": "Cortes con el eje X",
+      "enunciado": "Tienes la parábola <code>f(x)=x^2-4x+1</code>. Usa el comando <code>Raíz</code> para hallar dónde corta al eje X. Resuelve después x² − 4x + 1 = 0 con la fórmula y compara.",
+      "tareas": [],
+      "inicio": [
+        "f(x)=x^2-4x+1"
+      ],
+      "solucion": [
+        "Raíz(f)"
+      ],
+      "vista": [
+        -2,
+        6,
+        -4,
+        6
+      ]
+    }
+  ]
+}

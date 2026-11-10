@@ -1,0 +1,46 @@
+{
+  "curso": "2ESO",
+  "unidad": "UD07",
+  "titulo": "Sistemas de ecuaciones lineales",
+  "applets": [
+    {
+      "actividad": 34,
+      "titulo": "Punto de corte",
+      "enunciado": "Tienes las rectas <code>r: x+2y=8</code> y <code>s: 3x-y=3</code>. Usa el comando <code>Interseca</code> para obtener el punto de corte y comprueba el resultado resolviendo el sistema por sustitución.",
+      "tareas": [],
+      "inicio": [
+        "r: x+2y=8",
+        "s: 3x-y=3"
+      ],
+      "solucion": [
+        "Interseca(r,s)"
+      ],
+      "vista": [
+        -2,
+        9,
+        -3,
+        7
+      ]
+    },
+    {
+      "actividad": 35,
+      "titulo": "Rectas paralelas",
+      "enunciado": "Tienes las rectas <code>r: y=2x+1</code> y <code>s: y=2x-3</code>. ¿Se cortan? ¿Cuántas soluciones tiene el sistema? Cambia el 2 de la segunda ecuación por otro número y observa qué ocurre.",
+      "tareas": [],
+      "inicio": [
+        "r: y=2x+1",
+        "s: y=2x-3"
+      ],
+      "solucion": [
+        "s: y=-x-3",
+        "Interseca(r,s)"
+      ],
+      "vista": [
+        -6,
+        6,
+        -6,
+        6
+      ]
+    }
+  ]
+}

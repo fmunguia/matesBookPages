@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unidad 10. Pitágoras, perímetros y áreas</title>
+<link rel="stylesheet" href="../assets/estilo.css">
+</head>
+<body>
+<header><div class="contenido">
+<p class="miga"><a href="../index.html">Inicio</a> · 2.º ESO</p>
+<h1>Unidad 10. Pitágoras, perímetros y áreas</h1>
+</div></header>
+<main>
+<section class="tarjeta" id="a11">
+<h2><span class="numero">11</span>Comprueba el teorema de Pitágoras</h2>
+<p>Tienes un triángulo rectángulo. Construye un cuadrado sobre cada lado con la herramienta <em>Polígono regular</em> (o con <code>Polígono(B,A,4)</code>, <code>Polígono(A,C,4)</code> y <code>Polígono(C,B,4)</code>) y mide sus áreas. Mueve B y C: el triángulo sigue siendo rectángulo. ¿Qué relación se mantiene?</p>
+
+<div class="applet-ancho"><div class="applet" id="caja_a11">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>c1=Polígono(B,A,4)</code></li><li><code>c2=Polígono(A,C,4)</code></li><li><code>c3=Polígono(C,B,4)</code></li></ol></div>
+</section>
+<section class="tarjeta" id="a51">
+<h2><span class="numero">51</span>Área de un polígono irregular</h2>
+<p>Tienes el polígono <code>Polígono((0,0),(6,0),(8,4),(3,7),(-1,4))</code>.</p>
+<ol type="a"><li>¿Qué área indica GeoGebra?</li><li>Traza la diagonal desde (0, 0) hasta (8, 4) y hasta (3, 7), y usa <code>Polígono</code> para calcular el área de cada triángulo. ¿Suman lo mismo?</li></ol>
+<div class="applet-ancho"><div class="applet" id="caja_a51">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>t1=Polígono((0,0),(6,0),(8,4))</code></li><li><code>t2=Polígono((0,0),(8,4),(3,7))</code></li><li><code>t3=Polígono((0,0),(3,7),(-1,4))</code></li></ol></div>
+</section>
+</main>
+<footer>Applets de GeoGebra del libro de Matemáticas · Colegio Puente</footer>
+<script type="application/json" id="datos-unidad">{"curso": "2ESO", "unidad": "UD10", "titulo": "Pitágoras, perímetros y áreas", "applets": [{"actividad": 11, "titulo": "Comprueba el teorema de Pitágoras", "enunciado": "Tienes un triángulo rectángulo. Construye un cuadrado sobre cada lado con la herramienta <em>Polígono regular<\/em> (o con <code>Polígono(B,A,4)<\/code>, <code>Polígono(A,C,4)<\/code> y <code>Polígono(C,B,4)<\/code>) y mide sus áreas. Mueve B y C: el triángulo sigue siendo rectángulo. ¿Qué relación se mantiene?", "tareas": [], "inicio": ["A=(0,0)", "B=Punto(EjeX)", "SetCoords(B,4,0)", "C=Punto(EjeY)", "SetCoords(C,0,3)", "t=Polígono(A,B,C)"], "solucion": ["c1=Polígono(B,A,4)", "c2=Polígono(A,C,4)", "c3=Polígono(C,B,4)"], "vista": [-6, 10, -5, 9], "fijos": ["A"], "id": "a11", "ggbInicio": ["A=(0,0)", "B=Point(xAxis)", "SetCoords(B,4,0)", "C=Point(yAxis)", "SetCoords(C,0,3)", "t=Polygon(A,B,C)"], "ggbSolucion": ["c1=Polygon(B,A,4)", "c2=Polygon(A,C,4)", "c3=Polygon(C,B,4)"]}, {"actividad": 51, "titulo": "Área de un polígono irregular", "enunciado": "Tienes el polígono <code>Polígono((0,0),(6,0),(8,4),(3,7),(-1,4))<\/code>.", "tareas": ["¿Qué área indica GeoGebra?", "Traza la diagonal desde (0, 0) hasta (8, 4) y hasta (3, 7), y usa <code>Polígono<\/code> para calcular el área de cada triángulo. ¿Suman lo mismo?"], "inicio": ["p=Polígono((0,0),(6,0),(8,4),(3,7),(-1,4))"], "solucion": ["t1=Polígono((0,0),(6,0),(8,4))", "t2=Polígono((0,0),(8,4),(3,7))", "t3=Polígono((0,0),(3,7),(-1,4))"], "vista": [-3, 10, -2, 8], "id": "a51", "ggbInicio": ["p=Polygon((0,0),(6,0),(8,4),(3,7),(-1,4))"], "ggbSolucion": ["t1=Polygon((0,0),(6,0),(8,4))", "t2=Polygon((0,0),(8,4),(3,7))", "t3=Polygon((0,0),(3,7),(-1,4))"]}]}</script>
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<script src="../assets/applet.js"></script>
+</body>
+</html>

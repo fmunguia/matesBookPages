@@ -22,15 +22,22 @@ Campos de cada applet:
 
 | Campo | Qué es |
 |---|---|
-| `actividad` | Número de la actividad en el libro |
+| `actividad` | Número de la actividad en el libro (`null` para un taller digital, con `"id": "taller"`) |
 | `titulo`, `enunciado`, `tareas` | Texto que ve el alumno (admite `<code>`) |
+| `perspectiva` | `"AG"` (álgebra y gráfica, por defecto), `"A"` (solo álgebra) o `"AT"` (álgebra y 3D) |
 | `vista` | `[xmin, xmax, ymin, ymax]` de la vista gráfica |
+| `cuadricula` | `false` para ocultar la cuadrícula |
+| `proporcional` | `false` para no forzar la misma escala en los dos ejes (gráficas con valores muy distintos en x e y) |
+| `visibles` | Objetos que se deben mostrar en la vista gráfica (por ejemplo, una lista de puntos) |
 | `inicio` | Órdenes de GeoGebra de la construcción de partida |
 | `fijos` | Objetos que no se pueden mover |
-| `solucion` | Órdenes que ejecuta «Ver solución» |
+| `rastro` | Objetos que dejan rastro al moverse |
+| `solucion` | Órdenes que ejecuta «Ver solución» (si está vacía, no sale el botón) |
 
 Las órdenes se escriben en español, como las teclea el alumno. `construir.py` las traduce
 al inglés para el API de GeoGebra; si usas una orden que no está en `ORDENES`, añádela allí.
+En `inicio` también vale `SetCoords(P, x, y)` para colocar un punto que se mueve sobre
+una recta o un eje.
 
 ## Activar GitHub Pages
 

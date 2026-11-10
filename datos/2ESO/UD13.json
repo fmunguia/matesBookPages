@@ -1,0 +1,25 @@
+{
+  "curso": "2ESO",
+  "unidad": "UD13",
+  "titulo": "Probabilidad",
+  "applets": [
+    {
+      "actividad": 33,
+      "titulo": "Cien monedas",
+      "enunciado": "Escribe <code>lista=Secuencia(AleatorioEntre(0,1),i,1,100)</code> y después <code>Suma(lista)/100</code>. Cada 1 es una cara.",
+      "tareas": [
+        "¿Qué representa el número que obtienes?",
+        "Pulsa <strong>Reiniciar</strong> y vuelve a escribir las órdenes para repetir el experimento varias veces. ¿Entre qué valores se mueve?",
+        "Cambia 100 por 10 000. ¿Qué observas?"
+      ],
+      "inicio": [],
+      "solucion": [
+        "lista=Secuencia(AleatorioEntre(0,1),i,1,100)",
+        "frec=Suma(lista)/100",
+        "lista2=Secuencia(AleatorioEntre(0,1),i,1,10000)",
+        "frec2=Suma(lista2)/10000"
+      ],
+      "perspectiva": "A"
+    }
+  ]
+}

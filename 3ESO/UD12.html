@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unidad 12. Cuerpos geométricos</title>
+<link rel="stylesheet" href="../assets/estilo.css">
+</head>
+<body>
+<header><div class="contenido">
+<p class="miga"><a href="../index.html">Inicio</a> · 3.º ESO</p>
+<h1>Unidad 12. Cuerpos geométricos</h1>
+</div></header>
+<main>
+<section class="tarjeta" id="a11">
+<h2><span class="numero">11</span>El cubo y su desarrollo</h2>
+<p>En la vista 3D escribe <code>Cubo((0,0,0),(2,0,0))</code>. Después crea un deslizador con <code>t=Deslizador(0,1,0.01)</code>, escribe <code>Desarrollo(a,t)</code>, donde <code>a</code> es el nombre del cubo, y mueve el deslizador.</p>
+<ol type="a"><li>¿Cuántas caras, vértices y aristas tiene? Comprueba la fórmula de Euler.</li><li>Calcula su área y su volumen. Compruébalos: el valor del desarrollo es el área total del cubo, y el volumen se obtiene con <code>Volumen</code>.</li></ol>
+<div class="applet-ancho"><div class="applet" id="caja_a11">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>a=Cubo((0,0,0),(2,0,0))</code></li><li><code>t=Deslizador(0,1,0.01)</code></li><li><code>t=1</code></li><li><code>Desarrollo(a,t)</code></li><li><code>Volumen(a)</code></li></ol></div>
+</section>
+<section class="tarjeta" id="a18">
+<h2><span class="numero">18</span>Dodecaedro e icosaedro</h2>
+<p>En la vista 3D escribe <code>Dodecaedro((0,0,0),(1,0,0))</code> y, después, <code>Icosaedro((3,0,0),(4,0,0))</code>.</p>
+<ol type="a"><li>Cuenta las caras, los vértices y las aristas de cada uno.</li><li>¿Qué observas al comparar los dos poliedros?</li></ol>
+<div class="applet-ancho"><div class="applet" id="caja_a18">Cargando GeoGebra…</div></div>
+<div class="botones">
+<button type="button" data-accion="reiniciar">Reiniciar</button>
+<button type="button" data-accion="solucion">Ver solución</button>
+<button type="button" data-accion="descargar">Descargar .ggb</button>
+</div>
+<div class="pasos" hidden><strong>Órdenes de la solución:</strong><ol><li><code>Dodecaedro((0,0,0),(1,0,0))</code></li><li><code>Icosaedro((3,0,0),(4,0,0))</code></li></ol></div>
+</section>
+</main>
+<footer>Applets de GeoGebra del libro de Matemáticas · Colegio Puente</footer>
+<script type="application/json" id="datos-unidad">{"curso": "3ESO", "unidad": "UD12", "titulo": "Cuerpos geométricos", "applets": [{"actividad": 11, "titulo": "El cubo y su desarrollo", "enunciado": "En la vista 3D escribe <code>Cubo((0,0,0),(2,0,0))<\/code>. Después crea un deslizador con <code>t=Deslizador(0,1,0.01)<\/code>, escribe <code>Desarrollo(a,t)<\/code>, donde <code>a<\/code> es el nombre del cubo, y mueve el deslizador.", "tareas": ["¿Cuántas caras, vértices y aristas tiene? Comprueba la fórmula de Euler.", "Calcula su área y su volumen. Compruébalos: el valor del desarrollo es el área total del cubo, y el volumen se obtiene con <code>Volumen<\/code>."], "inicio": [], "solucion": ["a=Cubo((0,0,0),(2,0,0))", "t=Deslizador(0,1,0.01)", "t=1", "Desarrollo(a,t)", "Volumen(a)"], "perspectiva": "AT", "id": "a11", "ggbInicio": [], "ggbSolucion": ["a=Cube((0,0,0),(2,0,0))", "t=Slider(0,1,0.01)", "t=1", "Net(a,t)", "Volume(a)"]}, {"actividad": 18, "titulo": "Dodecaedro e icosaedro", "enunciado": "En la vista 3D escribe <code>Dodecaedro((0,0,0),(1,0,0))<\/code> y, después, <code>Icosaedro((3,0,0),(4,0,0))<\/code>.", "tareas": ["Cuenta las caras, los vértices y las aristas de cada uno.", "¿Qué observas al comparar los dos poliedros?"], "inicio": [], "solucion": ["Dodecaedro((0,0,0),(1,0,0))", "Icosaedro((3,0,0),(4,0,0))"], "perspectiva": "AT", "id": "a18", "ggbInicio": [], "ggbSolucion": ["Dodecahedron((0,0,0),(1,0,0))", "Icosahedron((3,0,0),(4,0,0))"]}]}</script>
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<script src="../assets/applet.js"></script>
+</body>
+</html>
